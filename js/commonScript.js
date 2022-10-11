@@ -92,7 +92,7 @@ ElidHeaderLinkSrvCyberSec.textContent = `Cyber Security`;
 ElidHeaderLinkSrvDataAnalytics.href = `services-detail.html`;
 
 ElidHeaderLinkOurWork.textContent = `Our Work`;
-ElidHeaderLinkOurWork.href = `blog.html`;
+ElidHeaderLinkOurWork.href = `ourWork.html`;
 
 ElidHeaderLinkCareers.textContent = `Careers`;
 ElidHeaderLinkCareers.href = `careers.html`;
