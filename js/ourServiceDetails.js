@@ -12,7 +12,10 @@ const ElidserviceLongHeading = document.getElementById("idserviceLongHeading");
 const ElidServiceLongParagraph = document.getElementById(
   "idServiceLongParagraph"
 );
-
+const Elgridcontainer = document.querySelector(".grid-container");
+const ElidServiceStactHeading = document.getElementById(
+  "idServiceStactHeading"
+);
 const clickedService = sessionStorage.getItem("serviceId");
 
 const allServices = [
@@ -338,3 +341,421 @@ for (const singleService of allServices) {
     ElidSrvTag4Para.textContent = `${singleService.SrvTag4Para}`;
   }
 }
+
+//Service Stact Data:Start
+const allStackServices = [
+  //Web Applications
+  {
+    id: "idServWevApp",
+    serviceHeading: "Web Applications",
+
+    servicesDetails:
+      "Bx Technologies web application development team has exceptional experience in wide range of web development technologies and frameworks. we are capable of delivering robust, scalable and user friendly web applications. ",
+    servicesImages: [
+      {
+        image: "img/Techstackimg/angularjs.png",
+        serviceName: "angularjs",
+      },
+      {
+        image: "img/Techstackimg/bootstrap.png",
+        serviceName: "bootstrap",
+      },
+      {
+        image: "img/Techstackimg/codeigniter.png",
+        serviceName: "codeigniter",
+      },
+      {
+        image: "img/Techstackimg/javascript.png",
+        serviceName: "javascript",
+      },
+      {
+        image: "img/Techstackimg/python.png",
+        serviceName: "python",
+      },
+      {
+        image: "img/Techstackimg/rails.png",
+        serviceName: "rails",
+      },
+      {
+        image: "img/Techstackimg/vuejs.png",
+        serviceName: "vuejs",
+      },
+      {
+        image: "img/Techstackimg/wordpress.png",
+        serviceName: "wordpress",
+      },
+      {
+        image: "img/Techstackimg/nodejs.png",
+        serviceName: "nodejs",
+      },
+      {
+        image: "img/Techstackimg/jquery.png",
+        serviceName: "jquery",
+      },
+      {
+        image: "img/Techstackimg/html5.png",
+        serviceName: "html5",
+      },
+      {
+        image: "img/Techstackimg/css3.png",
+        serviceName: "css3",
+      },
+      {
+        image: "img/Techstackimg/react.png",
+        serviceName: "reactJs",
+      },
+      {
+        image: "img/Techstackimg/php.png",
+        serviceName: "PhP",
+      },
+      {
+        image: "img/Techstackimg/ruby.png",
+        serviceName: "ruby",
+      },
+      {
+        image: "img/Techstackimg/csharp.png",
+        serviceName: "C#",
+      },
+      {
+        image: "img/Techstackimg/express.png",
+        serviceName: "expressJs",
+      },
+    ],
+  },
+
+  //Mobile Applications
+  {
+    id: "idServMobApp",
+    serviceHeading: "Mobile Applications",
+
+    servicesDetails:
+      " Our mobile application development engineers and developers always welcome complex and technical mobile application development tasks. Our mobile development uses a different types of mobile application technologies and frameworks to develop native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image: "img/Techstackimg/android.png",
+        serviceName: "android",
+      },
+      {
+        image: "img/Techstackimg/react.png",
+        serviceName: "reactJs",
+      },
+      {
+        image: "img/Techstackimg/nodejs.png",
+        serviceName: "nodejs",
+      },
+      {
+        image: "img/Techstackimg/java.png",
+        serviceName: "java",
+      },
+      {
+        image: "img/Techstackimg/javascript.png",
+        serviceName: "javascript",
+      },
+      {
+        image: "img/Techstackimg/swift.png",
+        serviceName: "swift",
+      },
+      {
+        image: "img/Techstackimg/html5.png",
+        serviceName: "HTML5",
+      },
+      {
+        image: "img/Techstackimg/css3.png",
+        serviceName: "CSS3",
+      },
+      {
+        image: "img/Techstackimg/flutter.png",
+        serviceName: "flutter",
+      },
+      {
+        image: "img/Techstackimg/angularjs.png",
+        serviceName: "angular",
+      },
+      {
+        image: "img/Techstackimg/vuejs.png",
+        serviceName: "VueJs",
+      },
+      {
+        image: "img/Techstackimg/meteor.png",
+        serviceName: "meteor",
+      },
+      {
+        image: "img/Techstackimg/logo-spring.png",
+        serviceName: "spring boot",
+      },
+      {
+        image: "img/Techstackimg/logo-nuxt.png",
+        serviceName: "nuxt",
+      },
+      {
+        image: "img/Techstackimg/express.png",
+        serviceName: "aexpressJs",
+      },
+    ],
+  },
+  //DATABASES
+  // {
+  //   id: "btDatabases",
+  //   serviceHeading: "Databases",
+
+  //   servicesDetails:
+  //     "We use and employ a diverse range of Databases ( SQL and NoSQL) for handling the most precious data for business value behind the scenes.",
+  //   servicesImages: [
+  //     {
+  //       image: "img/Techstackimg/mongodb.png",
+  //       serviceName: "mongodb",
+  //     },
+  //     {
+  //       image: "img/Techstackimg/mysql.png",
+  //       serviceName: "mysql",
+  //     },
+  //     {
+  //       image: "img/Techstackimg/couchdb.png",
+  //       serviceName: "couchdb",
+  //     },
+  //     {
+  //       image: "img/Techstackimg/oracle.png",
+  //       serviceName: "oracle",
+  //     },
+  //     {
+  //       image: "img/Techstackimg/postgresql.png",
+  //       serviceName: "postgresql",
+  //     },
+  //     {
+  //       image: "img/Techstackimg/sql-server.png",
+  //       serviceName: "SQL server",
+  //     },
+  //     {
+  //       image: "img/Techstackimg/cassandra.png",
+  //       serviceName: "cassandraDB",
+  //     },
+  //     {
+  //       image: "img/Techstackimg/mariadb-icon.png",
+  //       serviceName: "mariadb",
+  //     },
+  //   ],
+  // },
+
+  //SW TESTING
+  {
+    id: "idServSwQA",
+    serviceHeading: "Software Testing",
+
+    servicesDetails:
+      "To ensure the quality and build confidence on any software solution we develop,Bx technologies uses variety of testing tools and framework for automated and manuel testing.  ",
+    servicesImages: [
+      {
+        image: "img/Techstackimg/cucumber.png",
+        serviceName: "cucumber",
+      },
+      {
+        image: "img/Techstackimg/mocha.png",
+        serviceName: "mocha",
+      },
+      {
+        image: "img/Techstackimg/crashlytics.png",
+        serviceName: "crashlytics",
+      },
+      {
+        image: "img/Techstackimg/appium.png",
+        serviceName: "appium",
+      },
+      {
+        image: "img/Techstackimg/xraytest.png",
+        serviceName: "xray",
+      },
+      {
+        image: "img/Techstackimg/Fabrictest.png",
+        serviceName: "Fabrictest",
+      },
+      {
+        image: "img/Techstackimg/Junit.png",
+        serviceName: "Junit",
+      },
+      {
+        image: "img/Techstackimg/postman.png",
+        serviceName: "postman",
+      },
+      {
+        image: "img/Techstackimg/selenium.png",
+        serviceName: "selenium",
+      },
+      {
+        image: "img/Techstackimg/iTools.png",
+        serviceName: "iTools",
+      },
+      {
+        image: "img/Techstackimg/saucelabs.png",
+        serviceName: "saucelabs",
+      },
+      {
+        image: "img/Techstackimg/jmeter.png",
+        serviceName: "Jmeter",
+      },
+      {
+        image: "img/Techstackimg/TestRail.png",
+        serviceName: "TestRail",
+      },
+      {
+        image: "img/Techstackimg/testNG.png",
+        serviceName: "testNG",
+      },
+    ],
+  },
+  //Big Data
+  {
+    id: "idServDataAnlytics",
+    serviceHeading: "Big Data",
+
+    servicesDetails:
+      "Data is sometimes referred to as 21st-century oil in the digital world. To manage, process, transform and obtain actionable information and insights. We use several tools and technology to expose hidden patterns in the data. ",
+    servicesImages: [
+      {
+        image: "img/Techstackimg/spark.png",
+        serviceName: "spark",
+      },
+      {
+        image: "img/Techstackimg/cassandra.png",
+        serviceName: "cassandra",
+      },
+      {
+        image: "img/Techstackimg/apache.png",
+        serviceName: "apache",
+      },
+      {
+        image: "img/Techstackimg/apachehadoop.png",
+        serviceName: "apachehadoop",
+      },
+      {
+        image: "img/Techstackimg/mongodb.png",
+        serviceName: "mongodb",
+      },
+    ],
+  },
+
+  //IOTs
+  // {
+  //   id: "btnIOTs",
+  //   serviceHeading: "Internet Of Things",
+
+  //   servicesDetails:
+  //     "The Internet of things is normally referred to as IoT. We use a wide range of tools and technologies to implement IoT-based applications. IoT is already transforming many industries and business domains since its inception.",
+  //   servicesImages: [
+  //     { image: "assets/images/MbA1redux.svg", serviceName: "redux" },
+  //     { image: "assets/images/MbA2Swift_logo_color.svg", serviceName: "Swift" },
+  //     { image: "assets/images/MbA3lockup.svg", serviceName: "lockup" },
+  //     {
+  //       image: "assets/images/mbA4nativescript.svg",
+  //       serviceName: "ativescript",
+  //     },
+  //     { image: "assets/images/Mb5flutter-logo.svg", serviceName: "flutter" },
+  //     { image: "assets/images/mbA6download.svg", serviceName: "React" },
+  //   ],
+  // },
+  {
+    id: "idServBlockchain",
+    serviceHeading: "BlockChain",
+
+    servicesDetails:
+      "To develop secure, robust, interoperable and scalable Blockchain technology based applications, we incorporate tools and frameworks didicated to Blockchain technology.  ",
+    servicesImages: [
+      {
+        image: "img/Techstackimg/truffle.png",
+        serviceName: "truffle",
+      },
+      {
+        image: "img/Techstackimg/solidity.png",
+        serviceName: "solidity",
+      },
+      {
+        image: "img/Techstackimg/java.png",
+        serviceName: "Java",
+      },
+      {
+        image: "img/Techstackimg/python.png",
+        serviceName: "python",
+      },
+      {
+        image: "img/Techstackimg/react.png",
+        serviceName: "react",
+      },
+      {
+        image: "img/Techstackimg/Rust.png",
+        serviceName: "Rust",
+      },
+    ],
+  },
+
+  //cloud
+  {
+    id: "idServCloudAppMng",
+    serviceHeading: "Cloud Management",
+
+    servicesDetails:
+      "Application deployment and managment on the Cloud platforms and Cloud Server requires the use of specilized softwares and tools. in order to manage and maintian our CI/CD pipelines we makes use of several didicated software solutions that helps in seemless and smooth CI/CD operations.",
+    servicesImages: [
+      { image: "img/Techstackimg/docker.png", serviceName: "docker" },
+      { image: "img/Techstackimg/debian.png", serviceName: "debian" },
+      {
+        image: "img/Techstackimg/jenkins.png",
+        serviceName: "jenkins",
+      },
+      { image: "img/Techstackimg/maven.png", serviceName: "maven" },
+      { image: "img/Techstackimg/devops.png", serviceName: "devops" },
+      { image: "img/Techstackimg/travis.png", serviceName: "travis" },
+      { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
+    ],
+  },
+  {
+    id: "btnVersionControl",
+    serviceHeading: "Version Control",
+
+    servicesDetails:
+      "In todays complex software development environments, virson control is the most fundamental and necessary tools to keep track of changes mades to codebase by the developers. at BX technologies we use multiple version control systems acording to the client and project needs",
+    servicesImages: [
+      { image: "img/Techstackimg/git.png", serviceName: "git" },
+      { image: "img/Techstackimg/github.png", serviceName: "github" },
+      {
+        image: "img/Techstackimg/bitbucket.png",
+        serviceName: "bitbucket",
+      },
+      {
+        image: "img/Techstackimg/slack-logo.png",
+        serviceName: "slack",
+      },
+      { image: "img/Techstackimg/trello.png", serviceName: "trello" },
+      { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
+    ],
+  },
+];
+//Service Stact Data :END
+
+const FnRenderServiceStact = (clickedService) => {
+  for (const singleService of allStackServices) {
+    if (singleService.id === clickedService) {
+      ElidServiceStactHeading.innerHTML = `${singleService.serviceHeading}`;
+      for (singlestact of singleService.servicesImages) {
+        Elgridcontainer.innerHTML += `<div
+        class="grid-item process-step col-12 col-lg-4 mb-5 mb-lg-4 "
+       
+      >
+        <div class="process-step-circle">
+          <strong
+            class="process-step-circle-content text-color-primary text-8"
+            ><img src="${singlestact.image}" alt="" style = "width:50px; height:auto;"></strong
+          >
+        </div>
+        <div class="process-step-content px-5">
+          <h4
+            class="text-color-dark font-weight-bold text-4 line-height-1 mb-3"
+          >
+            ${singlestact.serviceName}
+          </h4>
+        </div>
+      </div>`;
+      }
+    }
+  }
+};
+
+FnRenderServiceStact(clickedService);
