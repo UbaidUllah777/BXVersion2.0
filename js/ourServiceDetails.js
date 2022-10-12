@@ -8,6 +8,10 @@ const ElidSrvTag3 = document.getElementById("idSrvTag3");
 const ElidSrvTag3Para = document.getElementById("idSrvTag3Para");
 const ElidSrvTag4 = document.getElementById("idSrvTag4");
 const ElidSrvTag4Para = document.getElementById("idSrvTag4Para");
+const ElidserviceLongHeading = document.getElementById("idserviceLongHeading");
+const ElidServiceLongParagraph = document.getElementById(
+  "idServiceLongParagraph"
+);
 
 const clickedService = sessionStorage.getItem("serviceId");
 
@@ -15,7 +19,12 @@ const allServices = [
   //Mobile Application Development
   {
     id: "idServMobApp",
-    serviceHeading: "Mobile Application Development",
+    serviceName: "Mobile Application Development",
+    bannerH1: "Trusted Mobile Application Development Services",
+    serviceLongDesc:
+      "Adopt a modern and state-of-the-art approach for your next mobile application development project with BX Technologies. A top-rated software development firm where the focus is on the multi-dimensional aspects of your project idea. We believe in and deliver a scalable, interactive, high-performance, and fully functional mobile application to our clients across the globe. Bx technologies have the expertise to undertake any project wither, developing an application from scratch or maintaining or improving new features in an existing mobile application. We are experts in ios, Android, cross-platform, and native mobile application development. Our development team would love to hear from you and work on turning your ideas into reality. ",
+    serviceHeading:
+      "Innovative Mobile Application Development Services that Meet User Expectations",
 
     SrvTag1: "Android Apps",
     SrvTag1Para:
@@ -38,7 +47,12 @@ const allServices = [
   //Web Applicaton Development
   {
     id: "idServWevApp",
-    serviceHeading: "Web Applicaton Development",
+    serviceName: "Web Applicaton Development",
+    bannerH1: "Web Application Development Services",
+    serviceLongDesc:
+      "Experience a state-of-the-art and structured approach for your Web application development project with BX Technologies. A top-rated software development firm where the focus is on the multi-dimensional aspects of your project idea. We believe in and deliver scalable, interactive, high-performance, and functional web applications to our clients across the globe. We use different web development programming languages, tools, and frameworks according to the project and business case requirements. Our developers are experienced and proficient in MERN, MEAN, JavaScript, .Net, PHP, RubyonRails, and many other web development technology stacks. ",
+    serviceHeading:
+      "Full-Stack Web Development Services that Deliver High Performance, Scalability, and Reliability",
 
     SrvTag1: "Custom Web Application Development",
 
@@ -64,7 +78,12 @@ const allServices = [
   //Custom Software Development
   {
     id: "idServCustSwDev",
-    serviceHeading: "Custom Software Development",
+    serviceName: "Custom Software Development",
+    bannerH1: "On-Demand Custom Software Development Services",
+    serviceLongDesc:
+      "We plan, code, test and deploy scalable and custom software solutions for start-ups, small and medium-sized businesses, and enterprise-level applications to empower them to unleash the potential of digital transformation. Our developers and software engineers leverage agile practices to develop innovative & powerful web applications, high-level mobile applications, and any other custom applications to meet the specified requirements and market needs. So, Hire us for your digital transformation adventure; we will make it a smooth ride for you. One of the most visible advantages of a custom solution is that it eliminates any further investments in the shape of commercial-of-the-shelf products. ",
+    serviceHeading:
+      "Custom Software Development Services that Takes Care of your Digital Transformation Needs",
 
     SrvTag1: "Legacy Systems",
     SrvTag1Para:
@@ -86,7 +105,12 @@ const allServices = [
   //Software Quality Assurance
   {
     id: "idServSwQA",
-    serviceHeading: "Software Quality Assurance",
+    serviceName: "Software Quality Assurance",
+    bannerH1: "Software Testing and Quality Assurance Services",
+    serviceLongDesc:
+      "BX Technologies provides custom and tailored software quality assurance services to develop and deploy high-quality and efficient software systems. Our test engineers and managers always look for options and solutions to deliver the best quality software to you and your end-users. Our testing process is multi-dimensional, where end-to-end testing is performed on your product; while keeping in mind the rules and regulations of international testing leaders like ISTQB and ISO. Thanks to the diverse skill set of our test engineer, your software is tested for different testing purposes while employing manual, automated, and DevOps startegies. ",
+    serviceHeading:
+      "Oustanding Software Quality and User Experience Through Testing and Quality Assurance ",
 
     SrvTag1: "Automated Testing",
     SrvTag1Para:
@@ -108,7 +132,12 @@ const allServices = [
   //UX/UI Design
   {
     id: "idServUxUiDesign",
-    serviceHeading: "UX/UI Design",
+    serviceName: "UX/UI Design",
+    bannerH1: "Top Nutch Application Design Services",
+    serviceLongDesc:
+      "Increase future product adoption by creating intuitive user experience design.Invest in user interface design for higher conversion rates and increased revenue. Boost customer retention by developing fit-for-purpose UI/UX design.",
+    serviceHeading:
+      "Achieve Aspiring Design for your Product With our Product Design Titans",
 
     SrvTag1: "Web UI/UX Design",
     SrvTag1Para:
@@ -130,7 +159,11 @@ const allServices = [
   //Blockchain Development
   {
     id: "idServBlockchain",
-    serviceHeading: "Blockchain Development",
+    serviceName: "Blockchain Development",
+    bannerH1: "Grow Your Business with our Blockchain Technology Services",
+    serviceLongDesc:
+      "Decentralized and distributed application development is becoming an absolute requirement for businesses due to their varying need of business requirements. We plan, execute and deploy decentralized solutions for clients powered by blockchain technology to ensure security, high efficiency, transparency, and robustness.",
+    serviceHeading: "End-to-end Blockchain Application Development Services",
 
     SrvTag1: "Decentralized Finance Apps",
     SrvTag1Para:
@@ -152,7 +185,12 @@ const allServices = [
   //Cloud App Management
   {
     id: "idServCloudAppMng",
-    serviceHeading: "Cloud App Management",
+    serviceName: "Cloud App Management",
+    bannerH1: "Cloud App Development and Management Services",
+    serviceLongDesc:
+      "Cloud services offer greater flexibility and managed services to achieve better results in terms of cost and application availability.  Our team of professional developers and engineers is capable of undertaking a wide range of cloud-related activities and tasks.",
+    serviceHeading:
+      "Unleash and Utilize the Power of Cloud Computing to Maximum",
 
     SrvTag1: "Cloud App Deployment",
     SrvTag1Para:
@@ -174,7 +212,12 @@ const allServices = [
   //Data Analytics & BI
   {
     id: "idServDataAnlytics",
-    serviceHeading: "Data Analytics & BI",
+    serviceName: "Data Analytics & BI",
+    bannerH1: " Data Analytics and Business Intelligence Services",
+    serviceLongDesc:
+      "Are you unaware of the extraordinary potential of your business data? Work with our team of talented Data scientists & data analysts to explore and extract hidden patterns and insights from your Data. We employ the latest tools and techniques to find meaningful and actionable intelligence in your business data that are vital for revenue generation and operational efficiency of your business",
+    serviceHeading:
+      "Explore Untapped Potential of Your Business with Our Data Science Solutions",
 
     SrvTag1: "Artificial Intelligence",
     SrvTag1Para:
@@ -196,7 +239,12 @@ const allServices = [
   //Technology Consultancy
   {
     id: "idServTechConsultacy",
-    serviceHeading: "Technology Consultancy",
+    serviceName: "Technology Consultancy",
+    bannerH1: "Technology Consultancy Services",
+    serviceLongDesc:
+      "Our Team of IT systems domain knowledge experts and consultants leverages their experiences and knowledge to assist you in overcoming challenges and bottlenecks in your digital transformation or carrying out your existing digital operations. We navigate clients on IT system-related issues and difficulties to eliminate loopholes and gray areas to boost business performance and functions. ",
+    serviceHeading:
+      "Explore Solutions and Guidelines for your Challenging IT Bottlenecks with Bx Technologies ",
 
     SrvTag1: "Technology Consulting",
     SrvTag1Para:
@@ -218,7 +266,12 @@ const allServices = [
   //Software Project Managements
   {
     id: "idServSwProjManag",
-    serviceHeading: "Software Project Managements",
+    serviceName: "Software Project Managements",
+    bannerH1: "Software Project Management Services",
+    serviceLongDesc:
+      "Execute your software project with our top-class team of project managers, product owners, and Scrum masters. We plan end-to-end project activities to reduce project risks and uncertainties in the software development life cycle. Streamline and organize workflows and project milestones, sprints, and deliverables to meet your project deadline with quality and within budget.",
+    serviceHeading:
+      " Bx Technologies Software Project Management Services One Click Away From You ",
 
     SrvTag1: "Realistic Estimation of Product Development",
     SrvTag1Para:
@@ -240,7 +293,12 @@ const allServices = [
   //Cyber Security & Pentesting
   {
     id: "idServCyberSecPenTest",
-    serviceHeading: "Cyber Security & Pentesting",
+    serviceName: "Cyber Security & Pentesting",
+    bannerH1: "Cyber Security and Penetration Testing Services",
+    serviceLongDesc:
+      "We utilize the latest tools and techniques to ensure your application is secure and resilient against cyber-attacks and malicious activities. Let us identify and fix your system vulnerabilities before any hacker exploits them.",
+    serviceHeading:
+      "Secure, Test, and Verify Your Business Critical System  With BX Technologies Pentesting Services",
 
     SrvTag1: "Web Application Security",
     SrvTag1Para:
@@ -262,8 +320,10 @@ const allServices = [
 
 for (const singleService of allServices) {
   if (singleService.id === clickedService) {
-    ElserviceDetailHeading.textContent = `${singleService.serviceHeading}`;
-    ElidServiceDetailName.textContent = `${singleService.serviceHeading}`;
+    ElserviceDetailHeading.textContent = `${singleService.bannerH1}`;
+    ElidServiceDetailName.textContent = `${singleService.serviceName}`;
+    ElidserviceLongHeading.textContent = `${singleService.serviceHeading}`;
+    ElidServiceLongParagraph.textContent = `${singleService.serviceLongDesc}`;
 
     ElidSrvTag1.textContent = `${singleService.SrvTag1}`;
     ElidSrvTag1Para.textContent = `${singleService.SrvTag1Para}`;
