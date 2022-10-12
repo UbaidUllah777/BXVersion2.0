@@ -106,3 +106,7 @@ ElidHeaderTextPhone.textContent = `+92-3159116035`;
 ElidHeaderTextPhone.href = `tel:+1234567890`;
 
 //Rendering Navbar Elements :start
+
+const FnClickedService = (clickedService) => {
+  clickedService = sessionStorage.setItem("serviceId", clickedService);
+};
