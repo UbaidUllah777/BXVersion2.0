@@ -197,11 +197,11 @@ const allServices = [
 
     SrvTag1: "Cloud App Deployment",
     SrvTag1Para:
-      "To offer high-performing, maintainable, and reasonably priced application deployment and management, we plan, develop, and deploy your application in the cloud using a variety of cloud services, deployment models and robust continuous integration and continuous deployment (CI/CD) pipelines, including 24/7 maintenance.",
+      " We develop and deploy your application in the cloud using a variety of cloud services, deployment models, robust CI/CD pipelines, and  24/7 maintenance.",
 
     SrvTag2: "Data Warehouse Migration",
     SrvTag2Para:
-      "We plan, create, and migrate your Data Warehouse using cloud services and serverless execute, transform and load (ETL) methods.  With the Cloud deployment, the operating costs of a Data warehouse can be reduced significantly, Which results in improved Data Warehouse performance and operations. ",
+      "We migrate your Data Warehouse using cloud services and serverless ETL methods.  With the Cloud deployment, the operating costs of a Data warehouse can be reduced significantly, Which results in improved Data Warehouse performance and operations. ",
 
     SrvTag3: "Cloud App Deployment",
     SrvTag3Para:
@@ -218,25 +218,25 @@ const allServices = [
     serviceName: "Data Analytics & BI",
     bannerH1: " Data Analytics and Business Intelligence Services",
     serviceLongDesc:
-      "Are you unaware of the extraordinary potential of your business data? Work with our team of talented Data scientists & data analysts to explore and extract hidden patterns and insights from your Data. We employ the latest tools and techniques to find meaningful and actionable intelligence in your business data that are vital for revenue generation and operational efficiency of your business",
+      "Are you unaware of the extraordinary potential of your business data? Work with our team of talented Data scientists & data analysts to explore and extract hidden patterns and insights from your Data. We employ the latest tools and techniques to find meaningful and actionable intelligence in your business data that are vital for revenue generation and operational efficiency of your business. At Bx technologies, we use state-of-the-art tools and frameworks to develop machine learning-based solutions that are robust, scalable, and resilient. ",
     serviceHeading:
       "Explore Untapped Potential of Your Business with Our Data Science Solutions",
 
     SrvTag1: "Artificial Intelligence",
     SrvTag1Para:
-      "Are you planning to deploy and integrate an AI-based system to boost your business operations? Avial our professional and domain knowledge expert developers to develop and implement artificial intelligence solutions for your business and keep yourself ahead of others in the competition. ",
+      "Avial our professional and domain knowledge experts to implement artificial intelligence-based solutions for your business and keep yourself ahead of others in the competition. ",
 
     SrvTag2: "Machine Learning",
     SrvTag2Para:
-      "At Bx technologies, we use state-of-the-art tools and frameworks to develop machine learning-based solutions that are robust, scalable, and resilient. We closely collaborate with clients to implement and deploy your next machine learning solution to keep you ahead of the competition.",
+      "We closely collaborate with clients to implement and deploy their machine-learning solutions to keep them ahead of competitors.",
 
     SrvTag3: "Business Intelligence",
     SrvTag3Para:
-      "Data is the twenty-first-century oil; hire our BI experts to work on your business intelligence project. We are capable of working with your precious data to process, extract hidden patterns, and transform your raw data into actionable intelligence using business intelligence tools and technologies. ",
+      "We are capable of working with your precious data to process, extract hidden patterns, and transform your raw data into actionable intelligence using business intelligence tools and technologies. ",
 
     SrvTag4: "Data Analytics",
     SrvTag4Para:
-      "Are you in Search of a dedicated and outstanding data analytics team for your data analysis project? Contact Us; our team of talented Data analysts incorporates the latest tools and techniques to dig deep into your critical business data to identify and extract hidden insights vital for the sustainability and growth of your business.",
+      "Our team of talented Data analysts incorporates the latest tools and techniques to dig deep into your critical business data to identify and extract hidden insights vital for the sustainability and growth of your business.",
   },
 
   //Technology Consultancy
@@ -245,25 +245,25 @@ const allServices = [
     serviceName: "Technology Consultancy",
     bannerH1: "Technology Consultancy Services",
     serviceLongDesc:
-      "Our Team of IT systems domain knowledge experts and consultants leverages their experiences and knowledge to assist you in overcoming challenges and bottlenecks in your digital transformation or carrying out your existing digital operations. We navigate clients on IT system-related issues and difficulties to eliminate loopholes and gray areas to boost business performance and functions. ",
+      "Our Team of IT systems domain knowledge experts and consultants leverages their experiences and knowledge to assist you in overcoming challenges and bottlenecks in your digital transformation or carrying out your existing digital operations. We navigate clients on IT system-related issues and difficulties to eliminate loopholes and gray areas to boost business performance and functions. To enable conventional businesses to turn their losses and inefficiencies into profits and high performance in terms of effectiveness. Our team of software and technology consultants provides support and advice to clients on several issues and problems.",
     serviceHeading:
       "Explore Solutions and Guidelines for your Challenging IT Bottlenecks with Bx Technologies ",
 
     SrvTag1: "Technology Consulting",
     SrvTag1Para:
-      "Our team of software and technology consultants provides support and advice to clients on several issues and problems. We help clients to develop and implement the latest technology solutions such as machine learning & AI, cloud computing, telecommunication & infotainment system testing, blockchain, and cyber security. ",
+      "We help clients to develop and implement the latest technology solutions such as ML & AI, cloud computing, telecommunication & infotainment system testing, blockchain, and cyber security.",
 
     SrvTag2: "Digital Strategy Consulting",
     SrvTag2Para:
-      "To enable conventional businesses to turn their losses and inefficiencies into profits and high performance in terms of effectiveness. Our team of digital technology specialists ideates, plan and execute digital strategies that achieve multi-dimensional results such as more agility and exponential growth in revenues.",
+      " Our team of digital technology specialists ideates, plan and execute digital strategies that achieve multi-dimensional results in terms of agility and exponential growth in revenues.",
 
     SrvTag3: "Solutions Consulting",
     SrvTag3Para:
-      "Are you facing difficulties in integrating a new system or optimizing your existing system? We are here to help you to develop complex and critical solutions that are important to your business's core processes. We advise our clients on different aspects of digital solutions implementation and decision-making. ",
+      "We are here to help you to develop complex and critical solutions that are important to your business's core processes. We advise our clients on different aspects of digital solutions implementation and decision-making.",
 
-    SrvTag4: "Software Support Services",
+    SrvTag4: "IT Support Services",
     SrvTag4Para:
-      "To ensure the smooth operations and functioning of your business-critical systems on a 24/7 basis. Our team of support engineers is eager to help you develop processes and controls that are reliable and trustworthy, which results in improved performance and less frequent system outages.",
+      "Our professional IT support engineers are eager to help you develop processes and controls that are reliable and trustworthy, which results in improved performance and less frequent system outages. ",
   },
 
   //Software Project Managements
@@ -272,21 +272,21 @@ const allServices = [
     serviceName: "Software Project Managements",
     bannerH1: "Software Project Management Services",
     serviceLongDesc:
-      "Execute your software project with our top-class team of project managers, product owners, and Scrum masters. We plan end-to-end project activities to reduce project risks and uncertainties in the software development life cycle. Streamline and organize workflows and project milestones, sprints, and deliverables to meet your project deadline with quality and within budget.",
+      "Execute your software project with our top-class team of project managers, product owners, and Scrum masters. We plan end-to-end project activities to reduce project risks and uncertainties in the software development life cycle. Streamline and organize workflows and project milestones, sprints, and deliverables to meet your project deadline with quality and within budget. Managing a software development project sometimes turns into a nightmare for organizations. If this is the same case with you, Our team of project & product management practitioners at BX technologies provides an end-to-end software development management process for clients to plan, develop and execute their software projects efficiently.",
     serviceHeading:
-      " Bx Technologies Software Project Management Services One Click Away From You ",
+      " Bx Technologies Software Project Management Services One Click Away from You",
 
-    SrvTag1: "Realistic Estimation of Product Development",
+    SrvTag1: "Realistic Development Cost Estimation",
     SrvTag1Para:
-      "Managing a software development project sometimes turns into a nightmare for organizations. If this is the same case with you, hire our team of professional and experienced project managers and scrum masters to build and develop your project management pipelines and process that ensures the seamless development of a complex software system.",
+      "Hire our professional and experienced project managers to build your project management pipelines and process that ensures the seamless development of a complex software system.",
 
     SrvTag2: "Software Development Life Cycle Planning",
     SrvTag2Para:
-      "Our team of project & product management practitioners at BX technologies provides an end-to-end software development management process for clients to plan, develop and execute their software projects efficiently. We provide project and product management services to manage start-ups, SMEs, and enterprise-level software application development projects.",
+      "We provide software project and product management services to manage start-ups, SMEs, and enterprise-level software application development projects.",
 
     SrvTag3: "Remote Software Project Management",
     SrvTag3Para:
-      "Collaboration, feedback, and teamwork are the main reasons behind a successful project implementation. Bx technologies' software project management team offers its services to carry out remote project management activities for clients. Jira, Asana, and other Project management tools are employed to meet client business goals and requirements.",
+      " Bx technologies' SPM team offers their services to carry out remote project management activities for clients. Jira, Asana, and other Project management tools are employed to meet client project goals and requirements.",
 
     SrvTag4: "Software Quality Assurance",
     SrvTag4Para:
@@ -299,25 +299,25 @@ const allServices = [
     serviceName: "Cyber Security & Pentesting",
     bannerH1: "Cyber Security and Penetration Testing Services",
     serviceLongDesc:
-      "We utilize the latest tools and techniques to ensure your application is secure and resilient against cyber-attacks and malicious activities. Let us identify and fix your system vulnerabilities before any hacker exploits them.",
+      "We utilize the latest tools and techniques to ensure your application is secure and resilient against cyber-attacks and malicious activities. Let us identify and fix your system vulnerabilities before any hacker exploits them. Our cyber security specialists dig deep into your application architecture & code to identify risks, vulnerabilities, and loopholes using vulnerability assessment approaches. ",
     serviceHeading:
       "Secure, Test, and Verify Your Business Critical System  With BX Technologies Pentesting Services",
 
     SrvTag1: "Web Application Security",
     SrvTag1Para:
-      "Our team of cyber security specialists leverages their skills and experience to minimize the risks and vulnerabilities in your application. Penetration tests are carried out in accordance with cyber security standards and OWASP v4 guidelines. ",
+      "Our team of cyber security specialists leverages their skills to minimize the risks and vulnerabilities in your application. Penetration tests are carried out by following cyber security standards.",
 
-    SrvTag2: "Internal/External Network Penetration Testing",
+    SrvTag2: "Internal/External Network Pentesting",
     SrvTag2Para:
       "Safeguard your critical network and IT infrastructure by employing BX technologies penetration testing. We offer a diverse range of solutions for network security by inducting efficient tools for managing your security operation center (SOC).",
 
     SrvTag3: "Phishing Simulation Service",
     SrvTag3Para:
-      "One of the most pressing issues that businesses often come across on their IT infrastructure is spam and phishing email campaigns. We help you in avoiding dangerous phishing campaigns directed at your application. Our team of experts overcomes these issues using dynamic simulation services.",
+      "We help you in avoiding dangerous phishing campaigns directed at your application. Our team of experts overcomes these issues using dynamic simulation services.",
 
     SrvTag4: "Vulnerability Assessment",
     SrvTag4Para:
-      "Our cyber security specialists dig deep into your application architecture & code to identify risks, vulnerabilities, and loopholes using vulnerability assessment approaches. Moreover, our cyber security not only identifies risks & threats but develops efficient solutions to eliminate these vulnerabilities hampering your application performance.",
+      "Our cyber security services not only identify risks & threats but develop efficient solutions to eliminate these vulnerabilities hampering your application performance.",
   },
 ];
 
