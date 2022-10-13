@@ -568,7 +568,7 @@ const allStackServices = [
     serviceHeading: "Mobile Applications",
 
     servicesDetails:
-      " Our mobile application development engineers and developers always welcome complex and technical mobile application development tasks. Our mobile development uses a different types of mobile application technologies and frameworks to develop native, hybrid, and cross-platform mobile applications.",
+      " Our mobile application development engineers and developers always welcome complex and technical mobile application development tasks. Our mobile development team uses a different types of mobile application technologies and frameworks to develop native, hybrid, and cross-platform mobile applications.",
     servicesImages: [
       {
         image: "img/Techstackimg/android.png",
