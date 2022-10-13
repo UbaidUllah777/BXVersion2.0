@@ -44,6 +44,15 @@ const ElidHeaderTextReachUs = document.getElementById("idHeaderTextReachUs");
 const ElidHeaderTextPhone = document.getElementById("idHeaderTextPhone");
 
 //vendering Navbar Elements :End
+//
+//
+//
+//
+//
+//
+//vendering FOOTER Elements :Start
+
+//vendering FOOTER Elements :End
 
 //Rendering Navbar Elements :start
 
