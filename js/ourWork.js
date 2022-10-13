@@ -483,7 +483,7 @@ const FnRenderOurWork = () => {
             data-plugin-options="{
                           'buttonOpenLabel': 'View More <i class= \'fas fa-chevron-down text-2 ms-1\'}></i>',
                           'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-                          'maxHeight': 100
+                          'maxHeight': 300
                       }"
           >
             <p>
@@ -493,7 +493,7 @@ const FnRenderOurWork = () => {
               ${singleProject.projShortDescp}
             </p>
             <p>${singleProject.projFullDescrp}</p>
-            <div class="readmore-button-wrapper ">
+            <div class="readmore-button-wrapper d-none">
               <a href="#" class="text-decoration-none">
                 Read More
                 <i class="fas fa-chevron-down"></i>
