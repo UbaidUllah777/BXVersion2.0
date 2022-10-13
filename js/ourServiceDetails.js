@@ -16,6 +16,9 @@ const Elgridcontainer = document.querySelector(".grid-container");
 const ElidServiceStactHeading = document.getElementById(
   "idServiceStactHeading"
 );
+const ELidServiceStackToolsDescp = document.getElementById(
+  "idServiceStackToolsDescp"
+);
 const clickedService = sessionStorage.getItem("serviceId");
 
 const allServices = [
@@ -929,6 +932,8 @@ const FnRenderServiceStact = (clickedService) => {
         </div>
       </div>`;
       }
+
+      ELidServiceStackToolsDescp.textContent = `${singleService.servicesDetails}`;
     }
   }
 };
