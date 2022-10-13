@@ -420,6 +420,142 @@ const allStackServices = [
         image: "img/Techstackimg/express.png",
         serviceName: "expressJs",
       },
+      {
+        image: "img/Techstackimg/mongodb.png",
+        serviceName: "mongodb",
+      },
+      {
+        image: "img/Techstackimg/mysql.png",
+        serviceName: "mysql",
+      },
+      {
+        image: "img/Techstackimg/couchdb.png",
+        serviceName: "couchdb",
+      },
+      {
+        image: "img/Techstackimg/oracle.png",
+        serviceName: "oracle",
+      },
+      {
+        image: "img/Techstackimg/postgresql.png",
+        serviceName: "postgresql",
+      },
+      {
+        image: "img/Techstackimg/sql-server.png",
+        serviceName: "SQL server",
+      },
+      {
+        image: "img/Techstackimg/mariadb-icon.png",
+        serviceName: "mariadb",
+      },
+    ],
+  },
+
+  // custom software development techstack
+
+  {
+    id: "idServCustSwDev",
+    serviceHeading: "Web Applications",
+
+    servicesDetails:
+      "Bx Technologies web application development team has exceptional experience in wide range of web development technologies and frameworks. we are capable of delivering robust, scalable and user friendly web applications. ",
+    servicesImages: [
+      {
+        image: "img/Techstackimg/angularjs.png",
+        serviceName: "angularjs",
+      },
+      {
+        image: "img/Techstackimg/bootstrap.png",
+        serviceName: "bootstrap",
+      },
+      {
+        image: "img/Techstackimg/codeigniter.png",
+        serviceName: "codeigniter",
+      },
+      {
+        image: "img/Techstackimg/javascript.png",
+        serviceName: "javascript",
+      },
+      {
+        image: "img/Techstackimg/python.png",
+        serviceName: "python",
+      },
+      {
+        image: "img/Techstackimg/rails.png",
+        serviceName: "rails",
+      },
+      {
+        image: "img/Techstackimg/vuejs.png",
+        serviceName: "vuejs",
+      },
+      {
+        image: "img/Techstackimg/wordpress.png",
+        serviceName: "wordpress",
+      },
+      {
+        image: "img/Techstackimg/nodejs.png",
+        serviceName: "nodejs",
+      },
+      {
+        image: "img/Techstackimg/jquery.png",
+        serviceName: "jquery",
+      },
+      {
+        image: "img/Techstackimg/html5.png",
+        serviceName: "html5",
+      },
+      {
+        image: "img/Techstackimg/css3.png",
+        serviceName: "css3",
+      },
+      {
+        image: "img/Techstackimg/react.png",
+        serviceName: "reactJs",
+      },
+      {
+        image: "img/Techstackimg/php.png",
+        serviceName: "PhP",
+      },
+      {
+        image: "img/Techstackimg/ruby.png",
+        serviceName: "ruby",
+      },
+      {
+        image: "img/Techstackimg/csharp.png",
+        serviceName: "C#",
+      },
+      {
+        image: "img/Techstackimg/express.png",
+        serviceName: "expressJs",
+      },
+      {
+        image: "img/Techstackimg/mongodb.png",
+        serviceName: "mongodb",
+      },
+      {
+        image: "img/Techstackimg/mysql.png",
+        serviceName: "mysql",
+      },
+      {
+        image: "img/Techstackimg/couchdb.png",
+        serviceName: "couchdb",
+      },
+      {
+        image: "img/Techstackimg/oracle.png",
+        serviceName: "oracle",
+      },
+      {
+        image: "img/Techstackimg/postgresql.png",
+        serviceName: "postgresql",
+      },
+      {
+        image: "img/Techstackimg/sql-server.png",
+        serviceName: "SQL server",
+      },
+      {
+        image: "img/Techstackimg/mariadb-icon.png",
+        serviceName: "mariadb",
+      },
     ],
   },
 
@@ -476,10 +612,6 @@ const allStackServices = [
         serviceName: "VueJs",
       },
       {
-        image: "img/Techstackimg/meteor.png",
-        serviceName: "meteor",
-      },
-      {
         image: "img/Techstackimg/logo-spring.png",
         serviceName: "spring boot",
       },
@@ -490,6 +622,22 @@ const allStackServices = [
       {
         image: "img/Techstackimg/express.png",
         serviceName: "aexpressJs",
+      },
+      {
+        image: "img/Techstackimg/mongodb.png",
+        serviceName: "mongodb",
+      },
+      {
+        image: "img/Techstackimg/mysql-icon.png",
+        serviceName: "mySQL",
+      },
+      {
+        image: "img/Techstackimg/sql-server.png",
+        serviceName: "SQL server",
+      },
+      {
+        image: "img/Techstackimg/couchdb.png",
+        serviceName: "couchdb",
       },
     ],
   },
@@ -652,6 +800,9 @@ const allStackServices = [
   //     { image: "assets/images/mbA6download.svg", serviceName: "React" },
   //   ],
   // },
+
+  // blockchain
+
   {
     id: "idServBlockchain",
     serviceHeading: "BlockChain",
@@ -706,9 +857,11 @@ const allStackServices = [
       { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
     ],
   },
+
+  // version control techstack
   {
-    id: "btnVersionControl",
-    serviceHeading: "Version Control",
+    id: "idServSwProjManag",
+    serviceHeading: "Software Project Management",
 
     servicesDetails:
       "In todays complex software development environments, virson control is the most fundamental and necessary tools to keep track of changes mades to codebase by the developers. at BX technologies we use multiple version control systems acording to the client and project needs",
@@ -724,7 +877,7 @@ const allStackServices = [
         serviceName: "slack",
       },
       { image: "img/Techstackimg/trello.png", serviceName: "trello" },
-      { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
+      // { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
     ],
   },
 ];
