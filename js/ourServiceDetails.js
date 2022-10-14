@@ -905,6 +905,29 @@ const allStackServices = [
       // { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
     ],
   },
+
+  // cyber secuirty tools and tech stack
+  {
+    id: "idServCyberSecPenTest",
+    serviceHeading: "CYBER SECURITY AND PENTESTING",
+
+    servicesDetails:
+      "We use the latest tools and technologies to test and secure your software applications from unwanted and malicious activities. ",
+    servicesImages: [
+      { image: "img/Techstackimg/photoshop.png", serviceName: "photoshop" },
+      { image: "img/Techstackimg/xd.png", serviceName: "adobe XD" },
+      {
+        image: "img/Techstackimg/illustrator.png",
+        serviceName: "adobe illustrator",
+      },
+      {
+        image: "img/Techstackimg/figma.png",
+        serviceName: "figma",
+      },
+      { image: "img/Techstackimg/sketching.png", serviceName: "sketch" },
+      // { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
+    ],
+  },
 ];
 //Service Stact Data :END
 
