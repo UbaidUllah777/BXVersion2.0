@@ -861,7 +861,7 @@ const allStackServices = [
     ],
   },
 
-  // version control techstack
+  // software project managment tools techstack
   {
     id: "idServSwProjManag",
     serviceHeading: "Software Project Management",
@@ -879,7 +879,22 @@ const allStackServices = [
         image: "img/Techstackimg/slack-logo.png",
         serviceName: "slack",
       },
-      { image: "img/Techstackimg/trello.png", serviceName: "trello" },
+      {
+        image: "img/Techstackimg/trello.png",
+        serviceName: "trello",
+      },
+      {
+        image: "img/Techstackimg/asana.png",
+        serviceName: "asana",
+      },
+      {
+        image: "img/Techstackimg/jira.png",
+        serviceName: "jira",
+      },
+      {
+        image: "img/Techstackimg/project.png",
+        serviceName: "MS project",
+      },
       // { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
     ],
   },
@@ -914,8 +929,16 @@ const allStackServices = [
     servicesDetails:
       "We use the latest tools and technologies to test and secure your software applications from unwanted and malicious activities. ",
     servicesImages: [
-      { image: "img/Techstackimg/BurpSuit.png", serviceName: "BurpSuit" },
-      { image: "img/Techstackimg/NMAP.png", serviceName: "NMAP" },
+      {
+        image: "img/Techstackimg/BurpSuit.png",
+        serviceName: "BurpSuit",
+      },
+
+      {
+        image: "img/Techstackimg/NMAP.png",
+        serviceName: "NMAP",
+      },
+
       {
         image: "img/Techstackimg/kaliLinux.png",
         serviceName: "kali Linux",
@@ -924,7 +947,10 @@ const allStackServices = [
         image: "img/Techstackimg/wireShark.png",
         serviceName: "wireShark",
       },
-      { image: "img/Techstackimg/cyber4.png", serviceName: "cyber4" },
+      {
+        image: "img/Techstackimg/cyber4.png",
+        serviceName: "cyber4",
+      },
       // { image: "img/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
     ],
   },
