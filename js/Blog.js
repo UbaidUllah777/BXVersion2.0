@@ -15,11 +15,16 @@ const BxBlogPosts = [
     BlogLongHeading: "Why Agile Is The Key To Success...",
     blogPostedOnDate: "October 4, 2022",
     blogAuthor: AuthorShafiq,
-    blogPara1: "",
-    blogPara2: "",
-    blogPara3: "",
-    blogPara4: "",
+    blogDisplayPara:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis.ONE",
+    blogPara1:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis. Sed  mauris.",
+    blogPara2:
+      "Curabitur non erat quam, id volutpat leo. Nullam pretium gravida urna et interdum. Suspendisse in dui tellus. Cras luctus nisl vel risus adipiscing aliquet.Phasellus convallis lorem dui. Quisque hendrerit,lectus ut accumsan gravida, leo tellus porttitor mi, ac mattis eros nunc vel enim. Nulla facilisi. Nam non",
+    blogPara3:
+      "Ut ac elit non mi pharetra dictum nec quis nibh. Pellentesque ut fringilla elit. Aliquam non ipsum id leo eleifend sagittis id a lorem. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam massa mauris, viverra et rhoncus a, feugiat ut sem. Quisque ultricies diam tempus quam molestie vitae sodales dolor sagittis.",
     blogImg: "img/demos/it-services/blog/Agile-Methodology.png",
+    blogPostBigImage: "img/demos/it-services/blog/AgileBigImage.jpg",
   },
   // 2nd Blog
   {
@@ -29,11 +34,17 @@ const BxBlogPosts = [
     BlogLongHeading: "In Overview Of Design Patterens...",
     blogPostedOnDate: "October 17, 2022",
     blogAuthor: AuthorUbaid,
-    blogPara1: "",
-    blogPara2: "",
-    blogPara3: "",
-    blogPara4: "",
-    blogImg: "img/demos/it-services/blog/Agile-Methodology.png",
+    blogDisplayPara:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis.TWO",
+    blogPara1:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis. Sed  mauris.",
+    blogPara2:
+      "Curabitur non erat quam, id volutpat leo. Nullam pretium gravida urna et interdum. Suspendisse in dui tellus. Cras luctus nisl vel risus adipiscing aliquet.Phasellus convallis lorem dui. Quisque hendrerit,lectus ut accumsan gravida, leo tellus porttitor mi, ac mattis eros nunc vel enim. Nulla facilisi. Nam non",
+    blogPara3:
+      "Ut ac elit non mi pharetra dictum nec quis nibh. Pellentesque ut fringilla elit. Aliquam non ipsum id leo eleifend sagittis id a lorem. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam massa mauris, viverra et rhoncus a, feugiat ut sem. Quisque ultricies diam tempus quam molestie vitae sodales dolor sagittis.",
+
+    blogImg: "img/demos/it-services/blog/designPatternsSmallImage.png",
+    blogPostBigImage: "img/demos/it-services/blog/designPatternsBigImage.png",
   },
   // 3rd Blog
   {
@@ -43,16 +54,23 @@ const BxBlogPosts = [
     BlogLongHeading: "Why JavaScript Popular...",
     blogPostedOnDate: "October 17, 2022",
     blogAuthor: AuthorUbaid,
-    blogPara1: "",
-    blogPara2: "",
-    blogPara3: "",
-    blogPara4: "",
-    blogImg: "img/demos/it-services/blog/Agile-Methodology.png",
+    blogDisplayPara:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis.THREE",
+    blogPara1:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis. Sed  mauris.",
+    blogPara2:
+      "Curabitur non erat quam, id volutpat leo. Nullam pretium gravida urna et interdum. Suspendisse in dui tellus. Cras luctus nisl vel risus adipiscing aliquet.Phasellus convallis lorem dui. Quisque hendrerit,lectus ut accumsan gravida, leo tellus porttitor mi, ac mattis eros nunc vel enim. Nulla facilisi. Nam non",
+    blogPara3:
+      "Ut ac elit non mi pharetra dictum nec quis nibh. Pellentesque ut fringilla elit. Aliquam non ipsum id leo eleifend sagittis id a lorem. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam massa mauris, viverra et rhoncus a, feugiat ut sem. Quisque ultricies diam tempus quam molestie vitae sodales dolor sagittis.",
+
+    blogImg: "img/demos/it-services/blog/JavaScriptSmallImage.jpg",
+    blogPostBigImage: "img/demos/it-services/blog/JavaScriptBigImage.jpg",
   },
 ];
 
 for (const singleBlogPost of BxBlogPosts) {
-  ElidBlogsContainer.innerHTML += ` <div class="BxBlogPost col-lg-6 isotope-item text-start">
+  if (ElidBlogsContainer) {
+    ElidBlogsContainer.innerHTML += ` <div class="BxBlogPost col-lg-6 isotope-item text-start">
   <article class="card custom-post-style-1 border-0">
     <header class="overlay overlay-show">
       <img
@@ -88,7 +106,7 @@ for (const singleBlogPost of BxBlogPosts) {
         </li>
       </ul>
       <p class="custom-text-size-1 mb-2">
-        ${singleBlogPost.blogPara1}
+        ${singleBlogPost.blogDisplayPara}
       </p>
       <a
         id="${singleBlogPost.id}"
@@ -100,7 +118,7 @@ for (const singleBlogPost of BxBlogPosts) {
     </div>
   </article>
 </div>`;
-  ElSideBlogsInfo.innerHTML += `
+    ElSideBlogsInfo.innerHTML += `
   <p
   
   class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none"
@@ -112,6 +130,7 @@ href="blog-post.html"
   class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4"
   >${singleBlogPost.blogShortHeading}</a
 >`;
+  }
 }
 
 const FnClickedBlog = (ClickedBlog) => {
