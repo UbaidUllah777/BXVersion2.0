@@ -78,6 +78,7 @@
         $("#footer").load("footer.html");
       });
     </script>
+    <script src="js/Blog.js" defer></script>
   </head>
   <body>
     <div class="body">
@@ -314,7 +315,7 @@
                   data-appear-animation="fadeInRightShorter"
                   data-appear-animation-delay="400"
                 >
-                  <li><a href="#">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
                   <li class="active">Blog</li>
                 </ul>
               </div>
@@ -332,209 +333,14 @@
               >
                 <div class="masonry-loader masonry-loader-showing">
                   <div
+                    id="idBlogsContainer"
                     class="row row-gutter-sm justify-content-center masonry mb-5"
                     data-plugin-masonry
                     data-plugin-options="{'itemSelector': '.isotope-item'}"
-                  >
-                    <div class="col-lg-6 isotope-item text-start">
-                      <article class="card custom-post-style-1 border-0">
-                        <header class="overlay overlay-show">
-                          <img
-                            class="img-fluid"
-                            src="img/demos/it-services/blog/blog-post-thumb-1.jpg"
-                            alt="Blog Post Thumbnail 1"
-                          />
-                          <h4
-                            class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5"
-                          >
-                            <a
-                              href="blog-post.html"
-                              class="text-color-light text-decoration-none"
-                              >What To Do If People Hate Your Brand</a
-                            >
-                          </h4>
-                        </header>
-                        <div class="card-body">
-                          <ul
-                            class="list list-unstyled custom-font-secondary pb-1 mb-2"
-                          >
-                            <li
-                              class="list-inline-item line-height-1 me-1 mb-0"
-                            >
-                              FEBRUARY 4, 2022
-                            </li>
-                            <li
-                              class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1"
-                            >
-                              3 COMMENTS
-                            </li>
-                            <li class="list-inline-item line-height-1 mb-0">
-                              JOHN DOE
-                            </li>
-                          </ul>
-                          <p class="custom-text-size-1 mb-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed imperdiet libero id nisi euismod, sed
-                            porta est consectetur. dolor sit amet...
-                          </p>
-                          <a
-                            href="blog-post.html"
-                            class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1"
-                            >Read More...</a
-                          >
-                        </div>
-                      </article>
-                    </div>
-                    <div class="col-lg-6 isotope-item text-start">
-                      <article class="card custom-post-style-1 border-0">
-                        <header class="overlay overlay-show">
-                          <img
-                            class="img-fluid"
-                            src="img/demos/it-services/blog/blog-post-thumb-2.jpg"
-                            alt="Blog Post Thumbnail 2"
-                          />
-                          <h4
-                            class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5"
-                          >
-                            <a
-                              href="blog-post.html"
-                              class="text-color-light text-decoration-none"
-                              >How To Create A Good Site for Your Clients</a
-                            >
-                          </h4>
-                        </header>
-                        <div class="card-body">
-                          <ul
-                            class="list list-unstyled custom-font-secondary pb-1 mb-2"
-                          >
-                            <li
-                              class="list-inline-item line-height-1 me-1 mb-0"
-                            >
-                              FEBRUARY 4, 2022
-                            </li>
-                            <li
-                              class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1"
-                            >
-                              3 COMMENTS
-                            </li>
-                            <li class="list-inline-item line-height-1 mb-0">
-                              JOHN DOE
-                            </li>
-                          </ul>
-                          <p class="custom-text-size-1 mb-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed imperdiet libero id nisi euismod, sed
-                            porta est consectetur. dolor sit amet...
-                          </p>
-                          <a
-                            href="blog-post.html"
-                            class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1"
-                            >Read More...</a
-                          >
-                        </div>
-                      </article>
-                    </div>
-                    <div class="col-lg-6 isotope-item text-start">
-                      <article class="card custom-post-style-1 border-0">
-                        <header class="overlay overlay-show">
-                          <img
-                            class="img-fluid"
-                            src="img/demos/it-services/blog/blog-post-thumb-3.jpg"
-                            alt="Blog Post Thumbnail 3"
-                          />
-                          <h4
-                            class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5"
-                          >
-                            <a
-                              href="blog-post.html"
-                              class="text-color-light text-decoration-none"
-                              >How To Design Powerful Mobile Apps</a
-                            >
-                          </h4>
-                        </header>
-                        <div class="card-body">
-                          <ul
-                            class="list list-unstyled custom-font-secondary pb-1 mb-2"
-                          >
-                            <li
-                              class="list-inline-item line-height-1 me-1 mb-0"
-                            >
-                              FEBRUARY 4, 2022
-                            </li>
-                            <li
-                              class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1"
-                            >
-                              3 COMMENTS
-                            </li>
-                            <li class="list-inline-item line-height-1 mb-0">
-                              JOHN DOE
-                            </li>
-                          </ul>
-                          <p class="custom-text-size-1 mb-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed imperdiet libero id nisi euismod, sed
-                            porta est consectetur. dolor sit amet...
-                          </p>
-                          <a
-                            href="blog-post.html"
-                            class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1"
-                            >Read More...</a
-                          >
-                        </div>
-                      </article>
-                    </div>
-                    <div class="col-lg-6 isotope-item text-start">
-                      <article class="card custom-post-style-1 border-0">
-                        <header class="overlay overlay-show">
-                          <img
-                            class="img-fluid"
-                            src="img/demos/it-services/blog/blog-post-thumb-1.jpg"
-                            alt="Blog Post Thumbnail 1"
-                          />
-                          <h4
-                            class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5"
-                          >
-                            <a
-                              href="blog-post.html"
-                              class="text-color-light text-decoration-none"
-                              >What To Do If People Hate Your Brand</a
-                            >
-                          </h4>
-                        </header>
-                        <div class="card-body">
-                          <ul
-                            class="list list-unstyled custom-font-secondary pb-1 mb-2"
-                          >
-                            <li
-                              class="list-inline-item line-height-1 me-1 mb-0"
-                            >
-                              FEBRUARY 4, 2022
-                            </li>
-                            <li
-                              class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1"
-                            >
-                              3 COMMENTS
-                            </li>
-                            <li class="list-inline-item line-height-1 mb-0">
-                              JOHN DOE
-                            </li>
-                          </ul>
-                          <p class="custom-text-size-1 mb-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed imperdiet libero id nisi euismod, sed
-                            porta est consectetur. dolor sit amet...
-                          </p>
-                          <a
-                            href="blog-post.html"
-                            class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1"
-                            >Read More...</a
-                          >
-                        </div>
-                      </article>
-                    </div>
-                  </div>
+                  ></div>
                 </div>
 
+                <!-- SIDE :START -->
                 <ul
                   class="custom-pagination-style-1 pagination pagination-rounded pagination-md justify-content-center"
                 >
@@ -572,28 +378,7 @@
                       ante justo, volutpat quis porta diam.
                     </p>
                   </div>
-                  <div class="py-1 clearfix">
-                    <hr class="my-2" />
-                  </div>
-                  <div class="px-3 mt-4">
-                    <form action="page-search-results.html" method="get">
-                      <div class="input-group mb-3 pb-1">
-                        <input
-                          class="form-control box-shadow-none text-1 border-0 bg-color-grey"
-                          placeholder="Search..."
-                          name="s"
-                          id="s"
-                          type="text"
-                        />
-                        <button
-                          type="submit"
-                          class="btn bg-color-grey text-1 p-2"
-                        >
-                          <i class="fas fa-search m-2"></i>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+
                   <div class="py-1 clearfix">
                     <hr class="my-2" />
                   </div>
@@ -603,163 +388,9 @@
                     >
                       Recent Posts
                     </h3>
-                    <div class="pb-2 mb-1">
-                      <a
-                        href="#"
-                        class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none"
-                        >10 Jan 2022
-                        <span class="opacity-3 d-inline-block px-2">|</span> 3
-                        Comments
-                        <span class="opacity-3 d-inline-block px-2">|</span>
-                        John Doe</a
-                      >
-                      <a
-                        href="#"
-                        class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4"
-                        >Lorem ipsum dolor sit amet</a
-                      >
-                      <a
-                        href="#"
-                        class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none"
-                        >10 Jan 2022
-                        <span class="opacity-3 d-inline-block px-2">|</span> 3
-                        Comments
-                        <span class="opacity-3 d-inline-block px-2">|</span>
-                        John Doe</a
-                      >
-                      <a
-                        href="#"
-                        class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4"
-                        >Consectetur adipiscing elit</a
-                      >
-                      <a
-                        href="#"
-                        class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none"
-                        >10 Jan 2022
-                        <span class="opacity-3 d-inline-block px-2">|</span> 3
-                        Comments
-                        <span class="opacity-3 d-inline-block px-2">|</span>
-                        John Doe</a
-                      >
-                      <a
-                        href="#"
-                        class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4"
-                        >Vivamus sollicitudin nibh luctus</a
-                      >
+                    <div id="SideBlogsInfo" class="pb-2 mb-1">
+                      <!-- 1st Blog -->
                     </div>
-                  </div>
-                  <div class="py-1 clearfix">
-                    <hr class="my-2" />
-                  </div>
-                  <div class="px-3 mt-4">
-                    <h3
-                      class="text-color-quaternary text-capitalize font-weight-bold text-5 m-0 mb-3"
-                    >
-                      Recent Comments
-                    </h3>
-                    <div class="pb-2 mb-1">
-                      <a
-                        href="#"
-                        class="text-color-default text-2 mb-0 d-block text-decoration-none line-height-4"
-                        >Admin on
-                        <strong
-                          class="text-color-dark text-hover-primary text-4"
-                          >Vivamus sollicitudin</strong
-                        >
-                        <span class="text-uppercase text-1 d-block pt-1 pb-3"
-                          >10 Jan 2022</span
-                        ></a
-                      >
-                      <a
-                        href="#"
-                        class="text-color-default text-2 mb-0 d-block text-decoration-none line-height-4"
-                        >John Doe on
-                        <strong
-                          class="text-color-dark text-hover-primary text-4"
-                          >Lorem ipsum dolor</strong
-                        >
-                        <span class="text-uppercase text-1 d-block pt-1 pb-3"
-                          >10 Jan 2022</span
-                        ></a
-                      >
-                      <a
-                        href="#"
-                        class="text-color-default text-2 mb-0 d-block text-decoration-none line-height-4"
-                        >Admin on
-                        <strong
-                          class="text-color-dark text-hover-primary text-4"
-                          >Consectetur adipiscing</strong
-                        >
-                        <span class="text-uppercase text-1 d-block pt-1 pb-3"
-                          >10 Jan 2022</span
-                        ></a
-                      >
-                    </div>
-                  </div>
-                  <div class="py-1 clearfix">
-                    <hr class="my-2" />
-                  </div>
-                  <div class="px-3 mt-4">
-                    <h3
-                      class="text-color-quaternary text-capitalize font-weight-bold text-5 m-0"
-                    >
-                      Categories
-                    </h3>
-                    <ul
-                      class="nav nav-list flex-column mt-2 mb-0 p-relative right-9"
-                    >
-                      <li class="nav-item">
-                        <a class="nav-link bg-transparent border-0" href="#"
-                          >Design (2)</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link bg-transparent border-0 active"
-                          href="#"
-                          >Photos (4)</a
-                        >
-                        <ul>
-                          <li class="nav-item">
-                            <a class="nav-link bg-transparent border-0" href="#"
-                              >Animals</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a
-                              class="nav-link bg-transparent border-0 active"
-                              href="#"
-                              >Business</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link bg-transparent border-0" href="#"
-                              >Sports</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link bg-transparent border-0" href="#"
-                              >People</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link bg-transparent border-0" href="#"
-                          >Videos (3)</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link bg-transparent border-0" href="#"
-                          >Lifestyle (2)</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link bg-transparent border-0" href="#"
-                          >Technology (1)</a
-                        >
-                      </li>
-                    </ul>
                   </div>
                 </aside>
               </div>
@@ -767,6 +398,7 @@
           </div>
         </section>
 
+        <!-- Let’s Get in Touch: START -->
         <section class="section section-height-3 bg-color-dark border-0 m-0">
           <div class="container container-xl-custom">
             <div class="row justify-content-center align-items-center">
@@ -806,6 +438,7 @@
             </div>
           </div>
         </section>
+        <!-- Let’s Get in Touch: END -->
       </div>
 
       <footer id="footer" class="bg-color-primary border-0 mt-0"></footer>
