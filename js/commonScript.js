@@ -92,13 +92,13 @@ ElidHeaderLinkSrvDataAnalytics.textContent = `Data Analytics and BI`;
 ElidHeaderLinkSrvDataAnalytics.href = `services-detail.html`;
 
 ElidHeaderLinkSrvTechConsult.textContent = `Technology Consultacy`;
-ElidHeaderLinkSrvDataAnalytics.href = `services-detail.html`;
+ElidHeaderLinkSrvTechConsult.href = `services-detail.html`;
 
 ElidHeaderLinkSrvProjManag.textContent = `Project Management`;
-ElidHeaderLinkSrvDataAnalytics.href = `services-detail.html`;
+ElidHeaderLinkSrvProjManag.href = `services-detail.html`;
 
 ElidHeaderLinkSrvCyberSec.textContent = `Cyber Security`;
-ElidHeaderLinkSrvDataAnalytics.href = `services-detail.html`;
+ElidHeaderLinkSrvCyberSec.href = `services-detail.html`;
 
 ElidHeaderLinkOurWork.textContent = `Our Work`;
 ElidHeaderLinkOurWork.href = `ourWork.html`;
