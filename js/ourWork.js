@@ -474,7 +474,7 @@ const FnRenderOurWork = () => {
             ${singleProject.projCategory}
           </li>
           <li>
-            <strong class="font-weight-semibold text-color-dark text-4 mb-4"
+            <strong class="font-weight-medium text-color-dark text-4 mb-4"
               >Services:
               <p class="text-1 " id="${singleProject.id}servicesProvided"></p>
             </strong>
