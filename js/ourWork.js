@@ -49,6 +49,30 @@ const MEAN_STACK = "Mean Stack";
 
 // variables section : Ends
 
+// Elements from index: START
+
+const ElindexOur1stProjectImg = document.getElementById(
+  "indexOur1stProjectImg"
+);
+const ElindexOur1stProjectHeading = document.getElementById(
+  "indexOur1stProjectHeading"
+);
+const ELindexOur1stProjectPara = document.getElementById(
+  "indexOur1stProjectPara"
+);
+
+const ElindexOur2ndProjectImg = document.getElementById(
+  "indexOur2ndProjectImg"
+);
+const ElindexOur2ndProjectHeading = document.getElementById(
+  "indexOur2ndProjectHeading"
+);
+const ElindexOur2ndProjectPara = document.getElementById(
+  "indexOur2ndProjectPara"
+);
+
+//Elements from index: END
+
 //OUR PROJECTS DATA: START
 
 const projectsByBxTech = [
@@ -529,5 +553,24 @@ const FnRenderOurWork = () => {
     }
   }
 };
+
+const FnRenderIndexOurWork = () => {
+  if (ElindexOur1stProjectImg) {
+    for (const singleIndexWork of projectsByBxTech) {
+      if (singleIndexWork.id === "HashTagThaiMassage") {
+        ElindexOur1stProjectImg.src = `${singleIndexWork.Mainimage}`;
+        ElindexOur1stProjectHeading.textContent = `${singleIndexWork.projName}`;
+        ELindexOur1stProjectPara.textContent = `${singleIndexWork.projShortDescp}`;
+      }
+      if (singleIndexWork.id === "GardeningServices") {
+        ElindexOur2ndProjectImg.src = `${singleIndexWork.Mainimage}`;
+        ElindexOur2ndProjectHeading.textContent = `${singleIndexWork.projName}`;
+        ElindexOur2ndProjectPara.textContent = `${singleIndexWork.projShortDescp}`;
+      }
+    }
+  }
+};
 FnRenderOurWork();
 //RENDERING PROJECTS :END
+
+FnRenderIndexOurWork();

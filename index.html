@@ -78,6 +78,9 @@
         $("#footer").load("footer.html");
       });
     </script>
+    <script src="js/Blog.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/ourWork.js" defer></script>
   </head>
   <body>
     <div class="body">
@@ -230,7 +233,7 @@
                               </li>
                               <li>
                                 <a
-                                onclick="FnClickedService('idServCyberSecPenTest')"
+                                  onclick="FnClickedService('idServCyberSecPenTest')"
                                   id="idHeaderLinkSrvCyberSec"
                                   class="nav-link"
                                   href=""
@@ -758,7 +761,6 @@
             background-position: 50px 0;
           "
         >
-          
           <div class="row pt-lg-4">
             <div class="col">
               <div
@@ -1019,7 +1021,7 @@
                   and digital solutions to excel and succeed.
                 </p>
                 <a
-                  href="#"
+                  href="ourWork.html"
                   class="d-flex align-items-center custom-link-effect-1 text-color-primary font-weight-bold text-decoration-none text-4 appear-animation"
                   data-appear-animation="fadeInUpShorter"
                   data-appear-animation-delay="900"
@@ -1027,41 +1029,6 @@
                 ></a>
               </div>
               <div class="col-lg-8">
-                <ul
-                  class="custom-nav-style-1 nav nav-pills justify-content-lg-end pb-3 appear-animation"
-                  data-appear-animation="fadeInUpShorter"
-                  data-appear-animation-delay="1100"
-                >
-                  <li class="nav-item">
-                    <a
-                      class="nav-link font-weight-bold text-color-dark border px-4 py-3"
-                      href="#"
-                      >MOBILE APPs</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link font-weight-bold text-color-dark border px-4 py-3"
-                      href="#"
-                      >WEB APPs</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link font-weight-bold text-color-dark border px-4 py-3"
-                      href="#"
-                      >CUSTOM DEVELOPMENT</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link font-weight-bold text-color-dark border px-4 py-3"
-                      href="#"
-                      >QA & TESTING</a
-                    >
-                  </li>
-                </ul>
-
                 <div
                   class="sort-destination-loader sort-destination-loader-loaded mt-1 pt-2"
                 >
@@ -1081,8 +1048,9 @@
                         <div class="card-body">
                           <a href="#" class="text-decoration-none">
                             <img
+                              id="indexOur1stProjectImg"
                               class="img-fluid pb-2 mb-4"
-                              src="img/demos/it-services/generic/generic-4.jpg"
+                              src=""
                               alt="Porto Master Case"
                             />
                           </a>
@@ -1090,19 +1058,15 @@
                             class="font-weight-bold text-color-dark custom-text-size-2 mb-3"
                           >
                             <a
-                              href="#"
+                              id="indexOur1stProjectHeading"
+                              href="ourWork.html"
                               class="text-color-dark text-decoration-none"
-                              >PORTO MASTER CASE</a
-                            >
+                            ></a>
                           </h4>
                           <p
+                            id="indexOur1stProjectPara"
                             class="custom-font-secondary custom-text-size-1 mb-1"
-                          >
-                            Lorem ipsum dolor sit
-                            <strong class="text-color-dark">amet</strong>,
-                            consectetur adipiscing elit. Nunc viverra erat orci,
-                            ac auctor.
-                          </p>
+                          ></p>
                         </div>
                       </div>
                     </div>
@@ -1113,56 +1077,29 @@
                     >
                       <div class="card border-0 custom-box-shadow-1 p-1">
                         <div class="card-body">
-                          <a href="#" class="text-decoration-none">
+                          <a href="ourWork.html" class="text-decoration-none">
                             <img
+                              id="indexOur2ndProjectImg"
                               class="img-fluid pb-2 mb-4"
-                              src="img/demos/it-services/generic/generic-5.jpg"
-                              alt="Okler Success Case"
+                              src=""
+                              alt=""
                             />
                           </a>
                           <h4
                             class="font-weight-bold text-color-dark custom-text-size-2 mb-3"
                           >
                             <a
-                              href="#"
+                              id="indexOur2ndProjectHeading"
+                              href="ourWork.html"
                               class="text-color-dark text-decoration-none"
-                              >OKLER SUCCESS CASE</a
-                            >
+                            ></a>
                           </h4>
                           <p
+                            id="indexOur2ndProjectPara"
                             class="custom-font-secondary custom-text-size-1 mb-1"
-                          >
-                            Lorem ipsum dolor sit
-                            <strong class="text-color-dark">amet</strong>,
-                            consectetur adipiscing elit. Nunc viverra erat orci,
-                            ac auctor.
-                          </p>
+                          ></p>
                         </div>
                       </div>
-                    </div>
-                  </div>
-
-                  <div id="portfolioLoadMoreBtnWrapper" class="row mt-3">
-                    <div class="col text-center">
-                      <div
-                        id="portfolioLoadMoreLoader"
-                        class="portfolio-load-more-loader"
-                      >
-                        <div class="bounce-loader">
-                          <div class="bounce1"></div>
-                          <div class="bounce2"></div>
-                          <div class="bounce3"></div>
-                        </div>
-                      </div>
-                      <button
-                        id="portfolioLoadMore"
-                        type="button"
-                        class="btn btn-link text-decoration-underline font-weight-bold text-3 appear-animation"
-                        data-appear-animation="fadeInUpShorter"
-                        data-appear-animation-delay="1700"
-                      >
-                        LOAD MORE +
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -1210,42 +1147,41 @@
               <article class="card custom-post-style-1 border-0">
                 <header class="overlay overlay-show">
                   <img
+                    id="idIndex1stBlogImg"
                     class="img-fluid"
-                    src="img/demos/it-services/blog/blog-post-thumb-1.jpg"
-                    alt="Blog Post Thumbnail 1"
+                    src=""
+                    alt="Agile-Methodology"
                   />
                   <h4
                     class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5"
                   >
                     <a
+                      id="idIndex1stBlogHeading"
                       href="blog-post.html"
                       class="text-color-light text-decoration-none"
-                      >Why Agile is Key to Successful Software Projects</a
-                    >
+                    ></a>
                   </h4>
                 </header>
                 <div class="card-body">
                   <ul
                     class="list list-unstyled custom-font-secondary pb-1 mb-2"
                   >
-                    <li class="list-inline-item line-height-1 me-1 mb-0">
-                      FEBRUARY 4, 2022
-                    </li>
                     <li
+                      id="idIndex1stBlogDate"
+                      class="list-inline-item line-height-1 me-1 mb-0"
+                    ></li>
+                    <li
+                      id="idIndex1stBlogAUthorName"
                       class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1"
-                    >
-                      3 COMMENTS
-                    </li>
-                    <li class="list-inline-item line-height-1 mb-0">
-                      JOHN DOE
-                    </li>
+                    ></li>
                   </ul>
-                  <p class="custom-text-size-1 mb-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    imperdiet libero id nisi euismod, sed porta est consectetur.
-                    dolor sit amet...
-                  </p>
+                  <p
+                    id="idIndex1stBlogPara"
+                    class="custom-text-size-1 mb-2"
+                  ></p>
                   <a
+                    id="WhyAgileIsTheKeyToSuccess"
+                    onclick="FnClickedBlog('WhyAgileIsTheKeyToSuccess')"
                     href="blog-post.html"
                     class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1"
                     >Read More...</a
@@ -1261,42 +1197,41 @@
               <article class="card custom-post-style-1 border-0">
                 <header class="overlay overlay-show">
                   <img
+                    id="idIndex2ndBlogImg"
                     class="img-fluid"
-                    src="img/demos/it-services/blog/blog-post-thumb-2.jpg"
+                    src=""
                     alt="Blog Post Thumbnail 2"
                   />
                   <h4
                     class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5"
                   >
                     <a
+                      id="idIndex2ndBlogHeading"
                       href="blog-post.html"
                       class="text-color-light text-decoration-none"
-                      >How To Create A Good Site for Your Clients</a
-                    >
+                    ></a>
                   </h4>
                 </header>
                 <div class="card-body">
                   <ul
                     class="list list-unstyled custom-font-secondary pb-1 mb-2"
                   >
-                    <li class="list-inline-item line-height-1 me-1 mb-0">
-                      FEBRUARY 4, 2022
-                    </li>
                     <li
+                      id="idIndex2ndBlogDate"
+                      class="list-inline-item line-height-1 me-1 mb-0"
+                    ></li>
+                    <li
+                      id="idIndex2ndBlogAUthorName"
                       class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1"
-                    >
-                      3 COMMENTS
-                    </li>
-                    <li class="list-inline-item line-height-1 mb-0">
-                      JOHN DOE
-                    </li>
+                    ></li>
                   </ul>
-                  <p class="custom-text-size-1 mb-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    imperdiet libero id nisi euismod, sed porta est consectetur.
-                    dolor sit amet...
-                  </p>
+                  <p
+                    id="idIndex2ndBlogPara"
+                    class="custom-text-size-1 mb-2"
+                  ></p>
                   <a
+                    id="InOverviewOfDesignPatterens"
+                    onclick="FnClickedBlog('InOverviewOfDesignPatterens')"
                     href="blog-post.html"
                     class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1"
                     >Read More...</a
@@ -1312,42 +1247,41 @@
               <article class="card custom-post-style-1 border-0">
                 <header class="overlay overlay-show">
                   <img
+                    id="idIndex3rdBlogImg"
                     class="img-fluid"
-                    src="img/demos/it-services/blog/blog-post-thumb-3.jpg"
+                    src=""
                     alt="Blog Post Thumbnail 3"
                   />
                   <h4
                     class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5"
                   >
                     <a
+                      id="idIndex3rdBlogHeading"
                       href="blog-post.html"
                       class="text-color-light text-decoration-none"
-                      >How To Design Powerful Mobile Apps</a
-                    >
+                    ></a>
                   </h4>
                 </header>
                 <div class="card-body">
                   <ul
                     class="list list-unstyled custom-font-secondary pb-1 mb-2"
                   >
-                    <li class="list-inline-item line-height-1 me-1 mb-0">
-                      FEBRUARY 4, 2022
-                    </li>
                     <li
+                      id="idIndex3rdBlogDate"
+                      class="list-inline-item line-height-1 me-1 mb-0"
+                    ></li>
+                    <li
+                      id="idIndex3rdBlogAUthorName"
                       class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1"
-                    >
-                      3 COMMENTS
-                    </li>
-                    <li class="list-inline-item line-height-1 mb-0">
-                      JOHN DOE
-                    </li>
+                    ></li>
                   </ul>
-                  <p class="custom-text-size-1 mb-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    imperdiet libero id nisi euismod, sed porta est consectetur.
-                    dolor sit amet...
-                  </p>
+                  <p
+                    id="idIndex3rdBlogPara"
+                    class="custom-text-size-1 mb-2"
+                  ></p>
                   <a
+                    id="WhyJavaScriptPopular"
+                    onclick="FnClickedBlog('WhyJavaScriptPopular')"
                     href="blog-post.html"
                     class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1"
                     >Read More...</a
