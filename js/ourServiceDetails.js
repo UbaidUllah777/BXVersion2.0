@@ -20,6 +20,7 @@ const ELidServiceStackToolsDescp = document.getElementById(
   "idServiceStackToolsDescp"
 );
 const clickedService = sessionStorage.getItem("serviceId");
+const ElidOurTechStackFor = document.getElementById("idOurTechStackFor");
 
 const allServices = [
   //Mobile Application Development
@@ -986,5 +987,13 @@ const FnRenderServiceStact = (clickedService) => {
     }
   }
 };
-
-FnRenderServiceStact(clickedService);
+if (clickedService != "idServTechConsultacy") {
+  FnRenderServiceStact(clickedService);
+  ElidOurTechStackFor.style.display = `block`;
+  ElidOurTechStackForHr.style.display = `block`;
+}
+const ElidOurTechStackForHr = document.getElementById("idOurTechStackForHr");
+if (clickedService == "idServTechConsultacy") {
+  ElidOurTechStackFor.style.display = `none`;
+  ElidOurTechStackForHr.style.display = `none`;
+}
