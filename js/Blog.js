@@ -55,13 +55,13 @@ const BxBlogPosts = [
     blogPostedOnDate: "October 17, 2022",
     blogAuthor: AuthorUbaid,
     blogDisplayPara:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis.THREE",
+      "JavaScript is important for software development because it is a versatile scripting language that can be used for a variety of purposes. JavaScript can be used to create interactive web pages, to validate form input, to create web applications, and to create server-side applications.",
     blogPara1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis. Sed  mauris.",
+      "JavaScript was originally developed by Brendan Eich in 1995 while working for Netscape Communications Corporation.Originally it was designed to be used as a scripting language for web pages, but it has since been used for a wide variety of purposes.",
     blogPara2:
-      "Curabitur non erat quam, id volutpat leo. Nullam pretium gravida urna et interdum. Suspendisse in dui tellus. Cras luctus nisl vel risus adipiscing aliquet.Phasellus convallis lorem dui. Quisque hendrerit,lectus ut accumsan gravida, leo tellus porttitor mi, ac mattis eros nunc vel enim. Nulla facilisi. Nam non",
+      "A scripting language was required to give life to the browser as more people used browsers to access and interact with the internet. something that was more complex than HTML and CSS. To breathe life into the browser, JavaScript was introduced at that point. It's a language that can perform all programming tasks that other languages can, but it also has a unique connection to browsers. It introduced a new age of web apps and altered the way we thought about the net.",
     blogPara3:
-      "Ut ac elit non mi pharetra dictum nec quis nibh. Pellentesque ut fringilla elit. Aliquam non ipsum id leo eleifend sagittis id a lorem. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam massa mauris, viverra et rhoncus a, feugiat ut sem. Quisque ultricies diam tempus quam molestie vitae sodales dolor sagittis.",
+      "With JavaScript, everyone with a web browser immediately has access to a programming environment, unlike many other languages where you must download the language to your computer in order to use all of its features. JavaScript is supported by every browser.",
 
     blogImg: "img/demos/it-services/blog/JavaScriptSmallImage.jpg",
     blogPostBigImage: "img/demos/it-services/blog/JavaScriptBigImage.jpg",
@@ -74,15 +74,15 @@ const BxBlogPosts = [
     blogShortHeading: "Why Automation is impotant",
     BlogLongHeading: "Why Automation is impotant...",
     blogPostedOnDate: "October 17, 2022",
-    blogAuthor: AuthorUbaid,
+    blogAuthor: AuthorShafiq,
     blogDisplayPara:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis.THREE",
+      "Software testing is a process that is used to identify errors, gaps or missing requirements in a software program. Software quality assurance (SQA) is a process that is used to ensure that a software program meets all of the standards and requirements that have been set for it.",
     blogPara1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie, purus eget placerat viverra, nisi odio gravida sapien, congue tincidunt nisl ante nec tellus. Vestibulum ante ipsum  primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur Vestibulum vehicula scelerisque facilisis. Sed  mauris.",
+      "Manual software testing is the process of manually testing software for defects. It is usually carried out by a human tester who interacts with the software using a test script. Test scripts are usually written in a scripting language or a testing tool.",
     blogPara2:
-      "Curabitur non erat quam, id volutpat leo. Nullam pretium gravida urna et interdum. Suspendisse in dui tellus. Cras luctus nisl vel risus adipiscing aliquet.Phasellus convallis lorem dui. Quisque hendrerit,lectus ut accumsan gravida, leo tellus porttitor mi, ac mattis eros nunc vel enim. Nulla facilisi. Nam non",
+      "Automated software testing is a process where software tools are used to automatically test software. This process can be carried out manually or automatically.",
     blogPara3:
-      "Ut ac elit non mi pharetra dictum nec quis nibh. Pellentesque ut fringilla elit. Aliquam non ipsum id leo eleifend sagittis id a lorem. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam massa mauris, viverra et rhoncus a, feugiat ut sem. Quisque ultricies diam tempus quam molestie vitae sodales dolor sagittis.",
+      "API testing is a type of software testing that focuses on the application programming interface (API) of an application to verify its functionality, correctness, and security. API testing can be performed at the unit, integration, or system level, and it can be done manually or using automation.",
 
     blogImg: "img/demos/it-services/blog/JavaScriptSmallImage.jpg",
     blogPostBigImage: "img/demos/it-services/blog/JavaScriptBigImage.jpg",
