@@ -111,8 +111,8 @@ ElidHeaderLinkContactUs.href = `contact.html`;
 
 ElidHeaderTextReachUs.textContent = `Reach BX Technologies`;
 
-ElidHeaderTextPhone.textContent = `+92-3159116035`;
-ElidHeaderTextPhone.href = `tel:+1234567890`;
+ElidHeaderTextPhone.textContent = `+92-3405742640`;
+ElidHeaderTextPhone.href = `tel:+923405742640`;
 
 //Rendering Navbar Elements :start
 
