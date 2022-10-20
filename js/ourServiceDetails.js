@@ -459,10 +459,10 @@ const allStackServices = [
 
   {
     id: "idServCustSwDev",
-    serviceHeading: "Web Applications",
+    serviceHeading: "Custom Software Development",
 
     servicesDetails:
-      "Bx Technologies web application development team has exceptional experience in wide range of web development technologies and frameworks. we are capable of delivering robust, scalable and user friendly web applications. ",
+      "Bx Technologies  development team has exceptional experience in wide range of web development technologies and frameworks. we are capable of delivering robust, scalable and user friendly custom software applications that are specific to your business requirements. ",
     servicesImages: [
       {
         image: "img/Techstackimg/angularjs.png",
@@ -754,13 +754,13 @@ const allStackServices = [
       },
     ],
   },
-  //Big Data
+  //Big Data and data analytics
   {
     id: "idServDataAnlytics",
-    serviceHeading: "Big Data",
+    serviceHeading: "Big Data and Data Analytics",
 
     servicesDetails:
-      "Data is sometimes referred to as 21st-century oil in the digital world. To manage, process, transform and obtain actionable information and insights. We use several tools and technology to expose hidden patterns in the data. ",
+      "Data is sometimes referred to as twenty first century oil in the digital world. To manage, process, transform and obtain actionable information and insights. We use several tools and technology to expose hidden patterns in the data. ",
     servicesImages: [
       {
         image: "img/Techstackimg/spark.png",
@@ -809,7 +809,7 @@ const allStackServices = [
 
   {
     id: "idServBlockchain",
-    serviceHeading: "BlockChain",
+    serviceHeading: "Blockchain",
 
     servicesDetails:
       "To develop secure, robust, interoperable and scalable Blockchain technology based applications, we incorporate tools and frameworks didicated to Blockchain technology.  ",
@@ -844,7 +844,7 @@ const allStackServices = [
   //cloud
   {
     id: "idServCloudAppMng",
-    serviceHeading: "Cloud Management",
+    serviceHeading: "Cloud App Management",
 
     servicesDetails:
       "Application deployment and managment on the Cloud platforms and Cloud Server requires the use of specilized softwares and tools. in order to manage and maintian our CI/CD pipelines we makes use of several didicated software solutions that helps in seemless and smooth CI/CD operations.",
@@ -903,9 +903,10 @@ const allStackServices = [
   // ux-ui Design
   {
     id: "idServUxUiDesign",
-    serviceHeading: "UI-UX DESIGN TOOLS",
+    serviceHeading: "UI and UX Designing",
 
-    servicesDetails: "heading stack line foe ui-ux",
+    servicesDetails:
+      "We are passionate about your product idea, our top-class designers use several design tools and technology to develop interactive designs for clients to meet their expectations and user experience. ",
     servicesImages: [
       { image: "img/Techstackimg/photoshop.png", serviceName: "photoshop" },
       { image: "img/Techstackimg/xd.png", serviceName: "adobe XD" },

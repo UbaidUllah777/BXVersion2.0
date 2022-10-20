@@ -126,7 +126,7 @@ const projectsByBxTech = [
   },
   {
     id: "GardeningServices",
-    projName: "Gardening Services",
+    projName: "Hausmeisterservice muensterland",
     projCategory: "Web Application",
     Mainimage: "img/projectsImages/gardenImage1.png",
     projShortDescp:
@@ -267,7 +267,7 @@ const projectsByBxTech = [
   },
   {
     id: "briantimetech",
-    projName: "Braintime Professional Services website",
+    projName: "Braintime Professional Services ",
     projCategory: "Web Application",
     Mainimage: "img/projectsImages/brainTimeProjectImage1.png",
     projShortDescp:
@@ -296,7 +296,7 @@ const projectsByBxTech = [
     ],
     industryVertical: [
       {
-        indusrty: "",
+        indusrty: "Services",
       },
     ],
     technologiesUsed: [{ technology: CUSTOM_SOFTWARE_INDUSTRY }],
@@ -309,7 +309,7 @@ const projectsByBxTech = [
   },
   {
     id: "hydrosendingwebiste",
-    projName: "HydroSensing Website",
+    projName: "HydroSensing",
     projCategory: "Web Application",
     Mainimage: "img/projectsImages/hydroSensingImage1.png",
     projShortDescp:
@@ -361,7 +361,7 @@ const projectsByBxTech = [
   },
   {
     id: "jabtco",
-    projName: "Jabtco ecommerce website",
+    projName: "Jabtco Chemicals",
     projCategory: "Web Application",
     Mainimage: "img/projectsImages/jabtcoimage2.png",
     projShortDescp:
@@ -409,25 +409,25 @@ const projectsByBxTech = [
   },
   {
     id: "MaFaheem",
-    projName: "Ma Faheem",
+    projName: "Al-mafaheem Technologies",
     projCategory: "Web Application",
-    Mainimage: "img/projectsImages/mafaheemImage1.png",
-    projShortDescp: "This is Short description of My 8th Project",
-    projFullDescrp: "This is Full Description of my 8th Project",
+    Mainimage: "img/projectsImages/mafaheemImage2.png",
+    projShortDescp:
+      "We developed a web site for the Al-mafaheem technologies in order to show case their services to clients",
+    projFullDescrp: "",
     images: [
       {
-        image: "img/projectsImages/mafaheemImage1.png",
+        image: "img/projectsImages/mafaheemImage2.png",
       },
     ],
     servicesProvided: [
       { service: Web_DEVELOPMENT },
       { service: SOFTWARE_TESTING },
       { service: USER_INTERFACE_DESIGN },
-      { service: PRODUCT_MANAGEMENT },
     ],
     industryVertical: [
       {
-        indusrty: "",
+        indusrty: "Services",
       },
     ],
     technologiesUsed: [
@@ -437,11 +437,12 @@ const projectsByBxTech = [
       { technology: JAVASCRIPT },
       { technology: HTML },
     ],
-    clientName: "Hashtag",
-    clientDesc: "This is Our 8th Client",
+    clientName: "Al-mafaheem Technologies",
+    clientDesc:
+      "Al-mafaheem technologies is network benckmark testing and evaluation company based in UAE. The company offers network quality testing and infotainment system testing services to its clients in the MENA region",
     ProjectDate: "01/March/2020",
     ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
+    ProjectUrl: "http://mafaheem-tech.com/",
   },
 ];
 
