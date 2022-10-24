@@ -38,8 +38,10 @@ const AllTeamProfiles = [
     previousDesignation: "Software Developer",
     headEducation: "Ms(CS)",
     aboutMePara:
-      "za makkhki dher ghareeb wam aw za ba pa pindi Express k as a Tc wam bya me da Ghareeb tabah d videos wakaty aw khpal business m kolao ko aw ws dher zyaty paisy gatam aw mazy koma aw yawa masta Gf da, aw mazy p kom.",
-
+      "Since 2015, I am working in the software development industry as a professional software developer. I have worked in a number of roles and positions in the technology domain since the beginning of my professional journey in this field. In my experience, I started as a trainee software developer. Over the years, I have been able to progress from a trainee software developer to a full stack developer, software tester, Software Quality assurance engineer, Scrum Master, Product Owner, Requirements Engineer, and Software project manager.",
+    aboutSecondPara: "My focus areas of interest are the following:",
+    aboutThirdPara:
+      "1. Full Stack development (MERN Stack), Software Testing and Automation, Software Quality assurance and Software Dependability, Software Project Management, Software Architecture, Design Patterns, Requirements Engineering and Project Planning, Machine learning and its Applications to Software Testing and Quality, IOTs, Blockchain and Quantum Computing, Test Driven Development (TDD), Model-based Testing, and embedded systems Testing, Development and testing tools, Cloud computing and blockchain technology, Distributed systems",
     birthday: "01/01/1991",
     marital: "Single",
     nationality: "Pakistani",
@@ -48,7 +50,7 @@ const AllTeamProfiles = [
     email: "shafiq@bxtechnologies.net",
     facebook: "N/A",
     twitter: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/muhammad-shafiq-3413a9a2/",
     blogAuthorName: "M.SHAFIQ",
 
     Experience: [
@@ -87,19 +89,19 @@ const AllTeamProfiles = [
         dates: "2017-2019",
       },
       {
-        schoolName: "University Of Agriculture, Peshawar",
+        schoolName: "University Of Peshawar, Peshawar",
         degreeName: "Bachelor's In Computer Science ",
-        dates: "2011-2015",
+        dates: "2010-2014",
       },
       {
         schoolName: "Excelior College Sangota,Swat",
         degreeName: "F.sc",
-        dates: "2008-2010",
+        dates: "2007-2009",
       },
       {
         schoolName: "Cambridge Public High School",
         degreeName: "SSC",
-        dates: "1996-2008",
+        dates: "2006-2007",
       },
     ],
     Skills: [
@@ -143,18 +145,23 @@ const AllTeamProfiles = [
     Languages: [
       {
         languageName: "ENGLISH",
-        languageAbility: "Advanced%",
+        languageAbility: "EXcellent",
         flag: "us",
       },
       {
         languageName: "URDU",
-        languageAbility: "Advanced",
+        languageAbility: "Native",
         flag: "pk",
       },
       {
         languageName: "PASHTO",
-        languageAbility: "Advanced",
+        languageAbility: "Native",
         flag: "pk",
+      },
+      {
+        languageName: "German",
+        languageAbility: "Basic",
+        flag: "de",
       },
     ],
   },
