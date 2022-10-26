@@ -56,7 +56,7 @@ const ElidHeaderTextPhone = document.getElementById("idHeaderTextPhone");
 
 //Rendering Navbar Elements :start
 
-ElidHeaderLogo.src = `img/demos/it-services/BXtechmodifiedlogo.png`;
+ElidHeaderLogo.src = `img/demos/it-services/BXoriginalLogo.png`;
 
 ElidHeaderLinkHome.textContent = `Home`;
 ElidHeaderLinkHome.href = `index.html`;
