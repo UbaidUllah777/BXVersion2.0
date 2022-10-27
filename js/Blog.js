@@ -5,6 +5,7 @@ const ElSideBlogsInfo = document.getElementById("SideBlogsInfo");
 
 const AuthorShafiq = "M.SHAFIQ";
 const AuthorUbaid = "UBAID ULLAH";
+const AuthirKashif = "M.Kashif";
 
 const BxBlogPosts = [
   // 1st Blog

@@ -165,6 +165,142 @@ const AllTeamProfiles = [
       },
     ],
   },
+  //KASHIF
+  {
+    id: "idKashifPortfolio",
+    HeadImg: "img/demos/resume/about-me/mKashifVer.jpeg",
+    name: "Muhammad Kashif",
+    designation: "Senior Software Engineer",
+    previousDesignation: "Software Developer",
+    headEducation: "Bs(CS)",
+    aboutMePara:
+      "As a Senior software Engineer. I have 8+ years hands on experience in variety of javascript frameworks and both frontend and backend side, Like Reactjs, Vue and Angular,   also had work on micro-services, mongo db, and firebase and node js express js.",
+    aboutSecondPara:
+      " over the years i have worked on different projects and technology domains, like blockchain, ecommerce solutions and enterprise level applications.",
+    aboutThirdPara: "",
+    birthday: "01/01/1991",
+    marital: "Single",
+    nationality: "Pakistani",
+    skype: "shafiqpesh123@gmail.com",
+    phone: "+92-3312413434",
+    email: "kashif@bxtechnologies.net",
+    facebook: "N/A",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/muhammad-shafiq-3413a9a2/",
+    blogAuthorName: "M.Kashif",
+
+    Experience: [
+      {
+        expDesignation: "Full Stack Software Developer ",
+        expPara:
+          "Working as a software developer at BX Technologies Pvt Limited, Islamabad, Pakistan, My major responsibilities are developing databases and software applications in Javascript, React, C#, ASP.net and In MERN Stack. My additional Skills are HTML5, CSS, Bootsrap,Mediaquery, NODE, Mongoose and MYSQL",
+        expFrom: "FEB 2017",
+        expTo: "PRESENT",
+        expCompany: "BX TEchnologies Pvt Ltd.",
+        expCompanyDistination: "Islamabad",
+      },
+      {
+        expDesignation: "Software Developer",
+        expPara:
+          "14 months of experience as a Desktop developer (C#, WPF)  & Web Developer (ASP.net) at ZeeSign Tech Pvt-Ltd Islamabad, Pakistan.",
+        expFrom: "NOV 2015",
+        expTo: "DEC 2016",
+        expCompany: "ZeeSign Tech Pvt Ltd.",
+        expCompanyDistination: "Islamabad, PK",
+      },
+      {
+        expDesignation: "Intern",
+        expPara:
+          "6 months of internship as a Desktop developer (C#, WPF) at Khyber Pakhtunkhwa Information and Technology Board Peshawar Pakistan.",
+        expFrom: "APR 2015",
+        expTo: "SEP 2015",
+        expCompany: "KPITB, Peshawar, Pakistan.",
+        expCompanyDistination: "Peshaawar, KPK",
+      },
+    ],
+    EducationInDetails: [
+      {
+        schoolName: "Capital University of Science and Technology, Islamabad",
+        degreeName: "Master's of Computer Science",
+        dates: "2017-2019",
+      },
+      {
+        schoolName: "University Of Peshawar, Peshawar",
+        degreeName: "Bachelor's In Computer Science ",
+        dates: "2010-2014",
+      },
+      {
+        schoolName: "Excelior College Sangota,Swat",
+        degreeName: "F.sc",
+        dates: "2007-2009",
+      },
+      {
+        schoolName: "Cambridge Public High School",
+        degreeName: "SSC",
+        dates: "2006-2007",
+      },
+    ],
+    Skills: [
+      {
+        skillName: "JavaScript",
+        skillPercentage: "80%",
+      },
+      {
+        skillName: "Asp.Net",
+        skillPercentage: "75%",
+      },
+      {
+        skillName: "C#",
+        skillPercentage: "85%",
+      },
+      {
+        skillName: "Mongoose",
+        skillPercentage: "80%",
+      },
+      {
+        skillName: "Bootstrap",
+        skillPercentage: "100%",
+      },
+      {
+        skillName: "React",
+        skillPercentage: "60%",
+      },
+      {
+        skillName: "NODE",
+        skillPercentage: "70%",
+      },
+      {
+        skillName: "C# & WPF",
+        skillPercentage: "70%",
+      },
+      {
+        skillName: "MYSQL",
+        skillPercentage: "90%",
+      },
+    ],
+    Languages: [
+      {
+        languageName: "ENGLISH",
+        languageAbility: "EXcellent",
+        flag: "us",
+      },
+      {
+        languageName: "URDU",
+        languageAbility: "Native",
+        flag: "pk",
+      },
+      {
+        languageName: "PASHTO",
+        languageAbility: "Native",
+        flag: "pk",
+      },
+      {
+        languageName: "German",
+        languageAbility: "Basic",
+        flag: "de",
+      },
+    ],
+  },
   //Ubaid Ullah
   {
     id: "idUbaidPortfolio",
@@ -190,6 +326,139 @@ const AllTeamProfiles = [
     twitter: "https://twitter.com/SebLumber",
     linkedin: "https://www.linkedin.com/in/ubaid-ullah-b3a185189/",
     blogAuthorName: "UBAID ULLAH",
+
+    Experience: [
+      {
+        expDesignation: "Full Stack Software Developer ",
+        expPara:
+          "Working as a software developer at BX Technologies Pvt Limited, Islamabad, Pakistan, My major responsibilities are developing databases and software applications in Javascript, React, C#, ASP.net and In MERN Stack. My additional Skills are HTML5, CSS, Bootsrap,Mediaquery, NODE, Mongoose and MYSQL",
+        expFrom: "FEB 2017",
+        expTo: "PRESENT",
+        expCompany: "BX TEchnologies Pvt Ltd.",
+        expCompanyDistination: "Islamabad",
+      },
+      {
+        expDesignation: "Software Developer",
+        expPara:
+          "14 months of experience as a Desktop developer (C#, WPF)  & Web Developer (ASP.net) at ZeeSign Tech Pvt-Ltd Islamabad, Pakistan.",
+        expFrom: "NOV 2015",
+        expTo: "DEC 2016",
+        expCompany: "ZeeSign Tech Pvt Ltd.",
+        expCompanyDistination: "Islamabad, PK",
+      },
+      {
+        expDesignation: "Intern",
+        expPara:
+          "6 months of internship as a Desktop developer (C#, WPF) at Khyber Pakhtunkhwa Information and Technology Board Peshawar Pakistan.",
+        expFrom: "APR 2015",
+        expTo: "SEP 2015",
+        expCompany: "KPITB, Peshawar, Pakistan.",
+        expCompanyDistination: "Peshaawar, KPK",
+      },
+    ],
+    EducationInDetails: [
+      {
+        schoolName: "Capital University of Science and Technology, Islamabad",
+        degreeName: "Master's of Computer Science",
+        dates: "2017-2019",
+      },
+      {
+        schoolName: "University Of Agriculture, Peshawar",
+        degreeName: "Bachelor's In Computer Science ",
+        dates: "2011-2015",
+      },
+      {
+        schoolName: "Excelior College Sangota,Swat",
+        degreeName: "F.sc",
+        dates: "2008-2010",
+      },
+      {
+        schoolName: "Cambridge Public High School",
+        degreeName: "SSC",
+        dates: "1996-2008",
+      },
+    ],
+    Skills: [
+      {
+        skillName: "JavaScript",
+        skillPercentage: "80%",
+      },
+      {
+        skillName: "Asp.Net",
+        skillPercentage: "75%",
+      },
+      {
+        skillName: "C#",
+        skillPercentage: "85%",
+      },
+      {
+        skillName: "Mongoose",
+        skillPercentage: "80%",
+      },
+      {
+        skillName: "Bootstrap",
+        skillPercentage: "100%",
+      },
+      {
+        skillName: "React",
+        skillPercentage: "60%",
+      },
+      {
+        skillName: "NODE",
+        skillPercentage: "70%",
+      },
+      {
+        skillName: "C# & WPF",
+        skillPercentage: "70%",
+      },
+      {
+        skillName: "MYSQL",
+        skillPercentage: "90%",
+      },
+    ],
+    Languages: [
+      {
+        languageName: "ENGLISH",
+        languageAbility: "Advanced%",
+        flag: "us",
+      },
+      {
+        languageName: "URDU",
+        languageAbility: "Advanced",
+        flag: "pk",
+      },
+      {
+        languageName: "PASHTO",
+        languageAbility: "Advanced",
+        flag: "pk",
+      },
+    ],
+  },
+  //Sobia/HR
+  {
+    id: "idSobiaPortfolio",
+    HeadImg: "img/demos/resume/about-me/femaleCommonVer.png",
+    name: "Sobia Aman Abbasi",
+    designation: "HR & Technical recruiter",
+    previousDesignation: "HR",
+    headEducation: "Bs(Eng)",
+    aboutMePara:
+      " Well-organized and creative HR. Pursued Management Sciences degree. Skilled in HR Policies, Performance   Management, Time Management, Teamwork, and Microsoft  Office",
+    aboutSecondPara:
+      "Strategic and innovative HR Executive who translates business vision into HR initiatives that improve performance, profitability, growth, and employee  engagement. Empowering leader who supports companies and   top executives with a unique perspective and appreciation   that human capital is every organization’s greatest asset.",
+    aboutThirdPara:
+      "  I am a Genuine influencer who thrives on tough challenges  and translates visions and strategies into actionable, value-added goals.",
+    phone: "N/A",
+    birthday: "01/01/1993",
+    marital: "married",
+    nationality: "Pakistani",
+    skype: "N/A",
+    phone: "N/A",
+    email: "hr@bxtechnologies.net",
+    facebook: "N/A",
+    twitter: "N/A",
+    linkedin: "N/A",
+    blogAuthorName: "Sobia Aman Abbasi",
 
     Experience: [
       {
